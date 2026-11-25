@@ -135,7 +135,8 @@ def build_parts(tex, tmp):
     body = bpy.data.objects.get("CC_Body_Main")
     if body:                                     # export the body cage without subdivision (smooth shading keeps it round)
         for md in body.modifiers:
-            if md.type == "SUBSURF": saved.append((md, md.levels)); md.levels = 0
+            if md.type == "SUBSURF": saved.append((md, "levels", md.levels)); md.levels = 0
+            if md.type == "SOLIDIFY": saved.append((md, "use_even_offset", md.use_even_offset)); md.use_even_offset = False
         dg.update()
     groups = {}
     for o in bpy.context.scene.objects:
@@ -174,7 +175,7 @@ def build_parts(tex, tmp):
             for p in me.polygons: p.material_index = 0; p.use_smooth = True
             name = g if len(per_cls) == 1 else f"{g}_{cls.replace('Atlas_', '')}"
             ob = bpy.data.objects.new(name, me); tmp.objects.link(ob); parts.append((g, ob))
-    for md, lv in saved: md.levels = lv
+    for md, attr, val in saved: setattr(md, attr, val)
     return parts
 
 def tris(ob):

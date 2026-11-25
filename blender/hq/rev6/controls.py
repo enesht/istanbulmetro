@@ -29,7 +29,25 @@ def _ctrl():
     return ob
 
 def _reparent_keep(child, parent):
-    mw = child.matrix_world.copy(); child.parent = parent; child.matrix_parent_inverse = parent.matrix_world.inverted(); child.matrix_world = mw
+    bpy.context.view_layer.update()            # parent.matrix_world must be current (fresh empties are identity until updated)
+    mw = child.matrix_world.copy(); child.parent = parent; child.matrix_parent_inverse = parent.matrix_world.inverted(); child.matrix_basis = Matrix.Identity(4)
+    child.matrix_world = mw
+
+def repair_parent_inverses(parents=("CC_Coupler", "CC_Bogie_F_Pivot", "CC_Bogie_R_Pivot")):
+    """one-off fix for rigs parented before the depsgraph update: assumes matrix_basis holds the intended world matrix."""
+    fixed = 0
+    def walk(p):
+        nonlocal fixed
+        bpy.context.view_layer.update()
+        for ch in p.children:
+            ch.matrix_parent_inverse = p.matrix_world.inverted(); fixed += 1
+        bpy.context.view_layer.update()
+        for ch in p.children:
+            if ch.type == "EMPTY": walk(ch)
+    for n in parents:
+        o = bpy.data.objects.get(n)
+        if o: walk(o)
+    return fixed
 
 def _move_origin(ob, new_origin):
     """move the object origin (mesh data shifted) without moving geometry or children."""

@@ -67,10 +67,10 @@ class _BakeSetup:
             if n: m.node_tree.nodes.remove(n)
         for md in self.saved_mods: md.show_render = True; md.show_viewport = True
 
-def _bake(objs, uv_name, img, kind):
+def _bake(objs, uv_name, img, kind, clear=True):
     """kind: color | rough | metal.  Bakes the current materials (PBR_Livery_Procedural on the paint slots) into img."""
     sc = bpy.context.scene; sc.render.engine = "CYCLES"; sc.cycles.samples = 4
-    bk = sc.render.bake; bk.margin = 12; bk.use_clear = True
+    bk = sc.render.bake; bk.margin = 12; bk.use_clear = clear
     sock = {"color": "Base Color", "rough": "Roughness", "metal": "Metallic"}[kind]
     m = mat("PBR_Livery_Procedural"); nt = m.node_tree; b = nt.nodes.get("Principled BSDF")
     src = b.inputs[sock].links[0].from_socket if b.inputs[sock].is_linked else None
@@ -83,7 +83,7 @@ def _bake(objs, uv_name, img, kind):
             b.inputs["Emission Color"].default_value = tuple(dv) if hasattr(dv, "__len__") else (dv, dv, dv, 1)
         b.inputs["Emission Strength"].default_value = 1.0
         try:
-            bpy.ops.object.bake(type="EMIT", margin=12, use_clear=True)
+            bpy.ops.object.bake(type="EMIT", margin=12, use_clear=clear)
         finally:
             b.inputs["Emission Strength"].default_value = es
             for l in list(nt.links):
@@ -93,10 +93,11 @@ def _bake(objs, uv_name, img, kind):
     return img.filepath_raw
 
 def use_procedural(objs, atlas_mat):
+    """paint slot (index 0) back to the procedural source for (re)baking."""
     proc = mat("PBR_Livery_Procedural")
     for o in objs:
-        for i, m in enumerate(o.data.materials):
-            if m and (m == atlas_mat or m.name.startswith("MAT_") and m.name.endswith("_Atlas")): o.data.materials[i] = proc
+        m = o.data.materials[0] if len(o.data.materials) else None
+        if m is None or m.name.startswith("MAT_") or m.name.startswith("PBR_Livery"): o.data.materials[0] = proc
 
 def atlas_material(name, prefix, uv_name):
     m = bpy.data.materials.get(name)
@@ -111,10 +112,8 @@ def atlas_material(name, prefix, uv_name):
     return m
 
 def assign_atlas(objs, m):
-    proc = mat("PBR_Livery_Procedural")
     for o in objs:
-        for i, mm in enumerate(o.data.materials):
-            if mm == proc: o.data.materials[i] = m
+        if len(o.data.materials): o.data.materials[0] = m
 
 def export_svg(objs, uv_name, path):
     for o in bpy.context.selected_objects: o.select_set(False)
@@ -151,6 +150,13 @@ def finish():
 
 def run_all():
     door_uvs(); bake_set("body"); bake_set("cab"); return finish()
+
+def bake_doors_only():
+    """re-bake just the door leaves into the existing body atlas (no clear)."""
+    objs = door_objects(); use_procedural(objs, None)
+    for kind, tag in (("color", "BaseColor"), ("rough", "Roughness"), ("metal", "Metallic")):
+        _bake(objs, "UV_BodyAtlas", bpy.data.images[f"T_Body_{tag}_{SIZE}"], kind, clear=False)
+    assign_atlas(objs, bpy.data.materials["MAT_Body_Atlas"])
 
 def rebake():
     """after editing the procedural paint: re-bake both atlases and re-assign."""

@@ -36,6 +36,10 @@ local DEFAULT = {
 	V_SCALE = 1,               -- dikey abartı (1 = gerçek)
 	SUBDIV = 2,                -- her 20 m'lik veri aralığını kaç parçaya böl (Catmull-Rom yumuşatma)
 	START_KM = 0, END_KM = 80, -- kurulacak kilometraj aralığı
+	ORIGIN_KM = nil,           -- verilirse hat YATAYDA kaydırılır: bu kilometraj (0,y,0)'a gelir.
+	                           -- Terrain ±32000 stud ile sınırlı; bölümü kendi merkezine almak
+	                           -- 1:1 ölçeği bozmadan terrain'i mümkün kılar. Y (deniz seviyesi)
+	                           -- datumu KORUNUR, sadece X/Z kayar. nil = kaydırma yok.
 	RAILS = true,              -- iki ray parçası ekle
 	TUNNEL_SHELL = true,       -- tünel segmentlerine duvar + tavan ekle
 	STATIONS = true,
@@ -67,7 +71,21 @@ return function(user)
 
 	local root = workspace:FindFirstChild("Marmaray") or Instance.new("Folder")
 	root.Name = "Marmaray"; root.Parent = workspace
-	local fTrack = Instance.new("Folder"); fTrack.Name = ("Track_%g-%gkm"):format(C.START_KM, C.END_KM); fTrack.Parent = root
+	-- Koordinatlarin anlami ORIGIN_KM'ye bagli; kaydedilmezse sonradan cozulemez.
+	local prevOrigin = root:GetAttribute("OriginKm")
+	if prevOrigin ~= C.ORIGIN_KM then
+		if #root:GetChildren() > 0 then
+			warn(("[Marmaray] UYARI: mevcut icerik OriginKm=%s ile kurulmus, simdi %s isteniyor. "
+				.. "Farkli origin'ler ayni klasorde KARISIR; once Workspace.Marmaray'i silin."):format(
+				tostring(prevOrigin), tostring(C.ORIGIN_KM)))
+		end
+		root:SetAttribute("OriginKm", C.ORIGIN_KM)
+	end
+	local fTrack = Instance.new("Folder")
+	fTrack.Name = ("Track_%g-%gkm"):format(C.START_KM, C.END_KM)
+	fTrack:SetAttribute("OriginKm", C.ORIGIN_KM)
+	fTrack:SetAttribute("StudsPerMeter", k)
+	fTrack.Parent = root
 	local fSt = root:FindFirstChild("Stations") or Instance.new("Folder"); fSt.Name = "Stations"; fSt.Parent = root
 
 	local function P(i) i = math.clamp(i, 1, #D.S); return D.toStuds(D.X[i], D.Y[i], D.Z[i], k, C.V_SCALE) end
@@ -75,8 +93,8 @@ return function(user)
 		local t2, t3 = t * t, t * t * t
 		return 0.5 * ((2 * p1) + (-p0 + p2) * t + (2 * p0 - 5 * p1 + 4 * p2 - p3) * t2 + (-p0 + 3 * p1 - 3 * p2 + p3) * t3)
 	end
-	-- kilometrajdan (m) Catmull-Rom eksen noktası
-	local function axisAt(sm)
+	-- kilometrajdan (m) Catmull-Rom eksen noktası (kaydırmasız, ham dünya koordinatı)
+	local function axisRaw(sm)
 		local n = #D.S
 		sm = math.clamp(sm, D.S[1], D.S[n])
 		local i = math.clamp(math.floor(sm / D.Step) + 1, 1, n - 1)
@@ -84,6 +102,16 @@ return function(user)
 		while i > 1 and D.S[i] > sm do i -= 1 end
 		local t = (sm - D.S[i]) / (D.S[i + 1] - D.S[i])
 		return catmull(P(i - 1), P(i), P(i + 1), P(i + 2), t)
+	end
+	-- Yatay kaydırma: ORIGIN_KM verilirse o kilometraj X=0,Z=0'a oturur.
+	-- Y kaydırılmaz; deniz seviyesi datumu korunur (tünel dibi yine ~-207 stud).
+	local originOffset = Vector3.zero
+	if C.ORIGIN_KM then
+		local o = axisRaw(C.ORIGIN_KM * 1000)
+		originOffset = Vector3.new(o.X, 0, o.Z)
+	end
+	local function axisAt(sm)
+		return axisRaw(sm) - originOffset
 	end
 	-- kilometrajda konum + teğet + sol vektör
 	local function frameAt(sm)

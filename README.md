@@ -52,8 +52,57 @@ Ayarlar: `STUDS_PER_METER` (varsayılan 1/0.28 = 3.571; 1 stud = 1 ft için 3.28
 Tünel kabuğu: 2. hat ofseti > 9 m ise her hatta ayrı tek hatlı tüp; ≤ 9 m ise (Boğaz batırma tüpü,
 7,6 m) iki hattı saran tek geniş kutu.
 
+## Ölçek ve Roblox sınırları (ölçülmüş)
+
+Ölçek **1:1**, yatay sıkıştırma yok (`V_SCALE = 1`). Tam hat **270.245 stud**, sınır kutusu
+193.314 × 96.304 stud. Uçlar merkezden ±96.693 stud.
+
+Studio'da ölçülen gerçek davranış:
+
+| | |
+|---|---|
+| Parça konumu | 10 milyon stud'a kadar **kırpılmıyor** |
+| Konum çözünürlüğü @ 10k stud | 0,27 mm |
+| Konum çözünürlüğü @ 96,7k stud | **2,19 mm** |
+| Konum çözünürlüğü @ 200k stud | 4,38 mm |
+| `Terrain.MaxExtents` | **±32.000 stud** (sert sınır) |
+
+2,19 mm, 1435 mm ray açıklığının yanında ihmal edilebilir — statik `Anchored` geometri uçlarda
+sorunsuz. (Eski README'deki "100k ötesinde fizik titrer" uyarısı statik geometri için abartılıydı;
+hareketli fizik ve kamera ayrı konu.)
+
+**Asıl duvar terrain.** ±32.000 stud = ±8,96 km. Tek parça kurulumda terrain yalnızca
+**km 34,38–53,16** aralığına (18,8 km = %25) konabilir ve 43 istasyonun sadece 13'ü kapsanır;
+Sirkeci, Üsküdar, Yenikapı, Halkalı, Gebze hepsi dışarıda kalır.
+
+### Çözüm: `ORIGIN_KM` ile bölümlere ayır
+
+`ORIGIN_KM` verilince hat **yatayda** kaydırılır, o kilometraj X=0,Z=0'a oturur. Y kaydırılmaz —
+deniz seviyesi datumu korunur, tünel dibi yine ~−207 stud. Her bölüm kendi merkezine alınınca
+1:1 ölçek bozulmadan terrain sınırına sığar:
+
+| Bölüm | `ORIGIN_KM` | X yarıçap | Z yarıçap | Terrain |
+|---|---|---|---|---|
+| km 0–17 Halkalı → Zeytinburnu | 8.5 | 26.487 | 21.603 | ✅ |
+| km 17–34 Kazlıçeşme → Söğütlüçeşme (Boğaz) | 25.5 | 25.545 | 12.683 | ✅ |
+| km 34–51 Feneryolu → Kartal | 42.5 | 20.529 | 21.038 | ✅ |
+| km 51–68 Kartal → Tuzla | 59.5 | 26.047 | 19.816 | ✅ |
+| km 68–76 Çayırova → Gebze | 72.0 | 12.534 | 7.361 | ✅ |
+
+Her bölüm ayrı Place, uçlarda `TeleportService`.
+
+```lua
+require(game.ServerStorage.BuildMarmaray)({ START_KM = 17, END_KM = 34, ORIGIN_KM = 25.5 })
+```
+
+`ORIGIN_KM` hem `Workspace.Marmaray`'a hem her `Track_*` klasörüne nitelik olarak yazılır
+(`StudsPerMeter` ile birlikte) — kaydedilmezse koordinatların anlamı sonradan çözülemez.
+Farklı origin'li içerik aynı klasöre kurulmak istenirse kurucu `warn` ile uyarır.
+
 **Dikkat:**
-- Tam ölçek hat ≈ **270.000 stud**. Orijin hattın ortasında; uçlar X ≈ ±96.700, Z ≈ ±48.000 stud. Roblox'ta ~100k stud ötesinde fizik titremeye başlar: sınırdayız. Gerekirse bölümlere ayır (her bölüm ayrı Place + teleport) ya da yatayı küçült.
+- `ModuleScript.Source`'u yerinde değiştirmek `require` önbelleğini geçersiz kılmaz. Aynı Studio
+  oturumunda modülü güncelledikten sonra ya Instance'ı klonlayıp eskisini silin ya da Studio'yu
+  yeniden başlatın; yoksa eski derlenmiş sürüm çalışmaya devam eder.
 - `Workspace.FallenPartsDestroyHeight` varsayılanı −500 stud; tünel en dipte −207 stud. Güvenlik için −2000 yap.
 - Tüm hat kurulumu 3 hatla ~70–80 bin Part. `StreamingEnabled` açık olsun, bölüm bölüm kur.
 - `MarmarayData` **tek hat ekseni** tutar (OSM'deki Gebze yönü hattı). 2. ve 3. hat `MarmarayLayout`'taki yanal ofsetlerden türetilir.

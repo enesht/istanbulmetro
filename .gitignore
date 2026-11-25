@@ -12,13 +12,31 @@ refs/**/*.ogg
 refs/**/*.svg
 refs/docs/*.pdf
 
-# Blender calisma dosyalari ve render ciktilari. .blend dosyalari ve PNG
-# render'lar git'e girmez; modelleme scriptleri (.py) izlenir.
+# Blender: kaynak (.py, .md) izlenir; uretilen her sey git'e girmez.
+# Uzanti listesi yerine ikili/uretilmis bicimleri tek tek dislayin ki yeni bir
+# export bicimi sessizce commit'e sizmasin.
 blender/**/*.blend
 blender/**/*.blend[0-9]*
 blender/**/*.png
+blender/**/*.jpg
+blender/**/*.jpeg
+blender/**/*.exr
+blender/**/*.hdr
+blender/**/*.tga
+blender/**/*.svg
+blender/**/*.fbx
+blender/**/*.glb
+blender/**/*.gltf
+blender/**/*.obj
+blender/**/*.mtl
+blender/**/*.dae
+blender/**/*.usd*
+blender/**/*.abc
+blender/**/*.ply
+blender/**/*.stl
 blender/**/__pycache__/
 blender/export/
+blender/**/export_roblox/
 Claude outputs/
 
 # Studio yerel place dosyalari (*.rbxl zaten yukarida ignore'da)

@@ -309,8 +309,9 @@ def bumper_and_coupler():
     for s in (1, -1):
         pp = [(11.02, s * 0.22, 0.64)] + [(11.02 + 0.09 * math.sin(a), s * (0.22 + 0.04 * math.sin(a)), 0.64 - 0.17 * (1 - math.cos(a))) for a in [k * pi / 10 for k in range(1, 11)]]
         parts.append(_tube(f"CC_Coupler_Hose_{'L' if s > 0 else 'R'}", pp, 0.021, mat("PBR_RubberSeal") or mat("PBR_Rubber"), cf))
+    bpy.context.view_layer.update()
     for p in parts:
-        mw = p.matrix_world.copy(); p.parent = root; p.matrix_parent_inverse = root.matrix_world.inverted(); p.matrix_world = mw
+        mw = p.matrix_world.copy(); p.parent = root; p.matrix_parent_inverse = root.matrix_world.inverted(); p.matrix_basis = Matrix.Identity(4); p.matrix_world = mw
     # obstacle deflector (plough) under the bumper
     dv_, sel = [], [q for q in pts if abs(q.y) < 0.95]
     for z, back in ((0.58, 0.10), (0.34, 0.14), (0.20, 0.16)):

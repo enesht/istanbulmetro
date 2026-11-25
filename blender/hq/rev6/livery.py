@@ -44,9 +44,8 @@ class _NB:
 
 def procedural_livery():
     """stripes, window band, roof, brushed stainless; the mask and the cab crown are separate paint objects now."""
-    old = mat("PBR_Livery_Body")
-    m = mat("PBR_Livery_Procedural")
-    if m: bpy.data.materials.remove(m)
+    olds = [x for x in (mat("PBR_Livery_Body"), mat("PBR_Livery_Procedural")) if x]
+    for x in olds: x.name = x.name + "_old"
     m = bpy.data.materials.new("PBR_Livery_Procedural"); m.use_nodes = True; m.use_fake_user = True; nt = m.node_tree
     bsdf = nt.nodes.get("Principled BSDF"); B = _NB(nt)
     tc = B._n("ShaderNodeTexCoord"); sp = B._n("ShaderNodeSeparateXYZ"); nt.links.new(tc.outputs["Object"], sp.inputs[0])
@@ -80,8 +79,8 @@ def procedural_livery():
     nt.links.new(cot, bsdf.inputs["Coat Weight"]); nt.links.new(spc, bsdf.inputs["Specular IOR Level"])
     bsdf.inputs["Coat Roughness"].default_value = 0.035
     m.diffuse_color = (0.6, 0.6, 0.6, 1)
-    if old:
-        old.user_remap(m); bpy.data.materials.remove(old)
+    for x in olds:                          # keep every user (doors, gutters, drips, shells) on the new material
+        x.user_remap(m); bpy.data.materials.remove(x)
     return m
 
 
