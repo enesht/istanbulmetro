@@ -2,16 +2,20 @@
   "name": "marmaray",
   "tree": {
     "$className": "DataModel",
-
     "ReplicatedStorage": {
       "MarmarayData": {
         "$path": "src/shared/MarmarayData.lua"
       },
       "MarmarayLayout": {
         "$path": "src/shared/MarmarayLayout.lua"
+      },
+      "MarmarayRailRuntime": {
+        "$path": "src/shared/MarmarayRailRuntime.lua"
+      },
+      "MarmarayTrainControl": {
+        "$className": "RemoteEvent"
       }
     },
-
     "ServerStorage": {
       "BuildMarmaray": {
         "$path": "src/server/BuildMarmaray.lua"
@@ -23,13 +27,14 @@
         "$path": "src/server/scenes"
       }
     },
-
     "ServerScriptService": {
       "Marmaray": {
         "$path": "src/server/scripts"
+      },
+      "MarmarayTrainServer": {
+        "$path": "src/server/MarmarayTrainServer.server.lua"
       }
     },
-
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "Marmaray": {
