@@ -1,0 +1,35 @@
+{
+  "name": "marmaray",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "MarmarayData": {
+        "$path": "src/shared/MarmarayData.lua"
+      },
+      "MarmarayLayout": {
+        "$path": "src/shared/MarmarayLayout.lua"
+      }
+    },
+
+    "ServerStorage": {
+      "BuildMarmaray": {
+        "$path": "src/server/BuildMarmaray.lua"
+      }
+    },
+
+    "ServerScriptService": {
+      "Marmaray": {
+        "$path": "src/server/scripts"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Marmaray": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
