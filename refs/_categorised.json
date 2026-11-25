@@ -1,0 +1,1393 @@
+{
+ "Ayrılık Çeşmesi (Marmaray / M4 aktarma istasyonu, Kadıköy - İstanbul)": [
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/platforms/Ayrilikcesmesi marmaray.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "tracks",
+    "tunnels",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "Peronun üzerinden hat boyunca çekilmiş görünüm: sağda kanopi altındaki peron ve ince yuvarlak kolon dizisi, solda açık kesitteki ray ve beton istinat duvarı, hattın bittiği yerde karanlık tünel ağzı. Katener teli ve konsol bumları kanopinin dışında kalıyor.",
+   "useful": true,
+   "notes": "Kanopi alt yüzeyi (nervürlü metal dek + enine kirişler), yeşil acil çıkış armatürleri, peron kenarındaki çift sıra sarı taktil şerit ve tünel portalı aynı karede. Modelleme için en bilgilendirici peron fotoğrafı."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/ticket_halls/Ayrılık Çeşmesi Metro Bilet Holü.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "flooring",
+    "lighting",
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Yeraltındaki M4 metro bilet holü: kare modüllü asma tavan, dağınık yerleşimli gömme LED panel armatürler, alacalı bej-kahve granit kaplı kare kolonlar ve iki ayrı turnike bataryası. Tavandan sarkan yuvarlak analog saat ile yeşil-turuncu nokta matris sefer bilgi ekranı (Kadıköy / Tavşantepe) görünüyor.",
+   "useful": true,
+   "notes": "Zeminde parlatılmış terrazzo üzerinde kesintisiz turuncu-sarı hissedilebilir kılavuz yol, duvarlarda bej büyük format fayans üzerine kırmızı yatay bant, kenarlarda siyah gömme tavan bantları."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/entrances/Ayrılık Çeşmesi Metro Girişi 1.jpg",
+   "category": "entrances",
+   "secondary": [
+    "stairs",
+    "escalators",
+    "signage",
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "İstasyon girişinin üstten görünümü: zemin seviyesinden aşağı inen açık merdiven/yürüyen merdiven çukuru ve alın duvarındaki bronz-bakır renkli fayans panel üzerinde İBB arması ile kabartma metal harflerle 'AYRILIK ÇEŞMESİ İSTASYONU 2013' yazısı. Arkada yeşil panel çitin ardında peron kanopisi ve katener direkleri.",
+   "useful": true,
+   "notes": "Alın duvarının büyük format açık bej seramik kaplaması, panelin fayans modülüne oturan ölçüsü ve çevredeki cam+paslanmaz korkuluk net okunuyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/entrances/Ayrılık Çeşmesi Metro Girişi.jpg",
+   "category": "entrances",
+   "secondary": [
+    "escalators",
+    "signage",
+    "flooring",
+    "stairs"
+   ],
+   "state": "completed",
+   "subject": "Giriş meydanından aynı giriş çukuruna bakış: solda yürüyen merdiven, ortada aşağı inen merdiven ve alın yazısı, sağda kırmızı bantlı 'AYRILIK ÇEŞ...' yazılı mavi-kırmızı 'M' metro totemi ile silindirik reklam panosu. Zeminde granit plak üzerinde sarı hissedilebilir kılavuz şeritler.",
+   "useful": true,
+   "notes": "Meydan kotu ile peron kotu arasındaki ilişki ve totem/korkuluk yerleşimi için iyi referans."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/architectural_details/Ayrılık Çeşmesi Namazgahı (83454).jpg",
+   "category": "architectural_details",
+   "secondary": [
+    "flooring",
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "İstasyona adını veren tarihi Ayrılık Çeşmesi Namazgahı: kaba yonu taş mihrap/ayak duvarı, taş plakalı açık namazgah sahanlığı ve çevresindeki bakımsız yeşil alan. Arkada demiryolu koridoru, yeşil panel çit, grafitili duvarlar ve bir yaya üstgeçidinin merdivenleri görünüyor.",
+   "useful": true,
+   "notes": "İstasyon yapısının parçası değil, hemen bitişikteki tarihi öğe. Modellenirse istasyonu jenerik olmaktan çıkaran bir landmark olur; taş dokusu ve sahanlık düzlemi okunabiliyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/signage/Ayrılık Çeşmesi Railway Station Plan.jpg",
+   "category": "signage",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Bilet holünde duran eğimli beyaz metal 'Görme Engelli Kat Krokisi' panosu; T.C. Ulaştırma ve Altyapı Bakanlığı ile TCDD logoları, kabartma lejant (yürüme yolu, çıkış koridoru, merdiven, yürüyen merdiven, asansör, turnike, engelli WC) ve kabartma kat planı.",
+   "useful": false,
+   "notes": "Harita/pano olduğu için doğrudan mimari yüzey değil; yine de panonun kendisi basit bir istasyon mobilyası ve plan şeması kabaca yürüyen merdiven-asansör-turnike dizilimini gösteriyor (fotoğrafta parlama nedeniyle tam okunamıyor)."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/ticket_halls/Ayrılık Çeşmesi Railway Station Ticket Hall.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "signage",
+    "flooring",
+    "walls",
+    "escalators",
+    "ceilings"
+   ],
+   "state": "completed",
+   "subject": "Marmaray bilet holü: beyaz/krem büyük format duvar fayansları, koyu gri taş kaplı kolon/duvar parçaları, gri-bej asma tavan ve tavandan sarkan yeşil 'ÇIKIŞ / Exit' ok kutusu. Ortada silindirik cam 'GÜVENLİK / Security' kabini, solda maroon kanatlı turnike bataryası, arkada M4 metroya gidişi gösteren yönlendirme levhaları ve yürüyen merdivenler.",
+   "useful": true,
+   "notes": "Zeminde gri terrazzo üzerinde geniş turuncu hissedilebilir bantlar çatallanıyor; duvarda 'MARMARAY →' levhası, kırmızı daire 'Girilmez' zemin etiketleri. İki sistemin (Marmaray + Metro) aynı holde buluşmasını gösteren tek kare."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/signage/Ayrılık Çeşmesi Railway Station Totem.jpg",
+   "category": "signage",
+   "secondary": [
+    "entrances",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Giriş meydanından istasyona bakış: önde dikey 'Marmaray / Ayrılık Çeşmesi' yazılı koyu renk totem direği, arkada peron kanopisinin ince konsol saçağı ve kırmızı bantlı 'AYRILIK...' metro totemi, en arkada Tepe Nautilus AVM'nin mavi-beyaz cepheli kütlesi. Sağda yürüyen merdiven çukuru ve peronda bekleyen tren görünüyor.",
+   "useful": true,
+   "notes": "İstasyonun kent içindeki siluetini (AVM + kanopi + totemler) veren en iyi kare; elektrikli scooter, çöp kutusu, bilet otomatı kabini gibi meydan mobilyaları da görülüyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/entrances/Ayrılık Çeşmesi railway station 20220320 (1).jpg",
+   "category": "entrances",
+   "secondary": [
+    "flooring",
+    "signage",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Meydan kotundan geniş açı: granit plak döşeli meydan, L yapan sarı hissedilebilir şerit, çizgisel drenaj ızgarası, 'M' totemi ve silindirik reklam panosu; arkada yeşil panel çitin ardındaki peron kanopisi, bekleyen Marmaray treni ve Tepe Nautilus / Cinemaximum cephesi.",
+   "useful": true,
+   "notes": "Meydan döşeme deseni, ızgara hattı ve kanopinin dıştan profili için iyi; ayrıca peron kenarındaki 'AYRILIKÇEŞMESİ - tehlikeli ve yasaktır' uyarı levhası görünüyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/entrances/Ayrılık Çeşmesi railway station 20220320 (2).jpg",
+   "category": "entrances",
+   "secondary": [
+    "escalators",
+    "flooring",
+    "platforms"
+   ],
+   "state": "completed",
+   "subject": "Aynı meydanın daha yakın açısı: reklam silindiri ve 'ÇEŞMESİ 1' yazılı kırmızı bantlı totem önde, arkada yürüyen merdiven çukuru, yeşil çitin ardında kanopi altında bekleyen yolcular ve peron.",
+   "useful": true,
+   "notes": "Kanopi kolon dizisi ile peron arasındaki ilişki ve çit-istinat duvarı kesiti için kullanışlı; ayrıca ahşap kedi evleri, otobüs durağı gibi çevre öğeleri."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/entrances/Ayrılık Çeşmesi railway station 20220320 (3).jpg",
+   "category": "entrances",
+   "secondary": [
+    "flooring",
+    "signage",
+    "platforms"
+   ],
+   "state": "completed",
+   "subject": "Meydan ve giriş çukurunun bütününü veren geniş kare: solda İBB logolu dijital bilgi/ATM kiosku, ortada aşağı inen yürüyen merdiven, sağda totem ve reklam silindiri; arkada kanopi altındaki peron ve AVM cephesi.",
+   "useful": true,
+   "notes": "Meydan mobilyası yerleşimi ve kanopinin uzunluğu boyunca tekrarlayan kolon ritmi okunuyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/platforms/Ayrılık Çeşmesi railway station 20220320 (4).jpg",
+   "category": "platforms",
+   "secondary": [
+    "entrances",
+    "escalators",
+    "tracks",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Yeşil panel çitin arkasından peronda duran grafitili eski tip banliyö/Marmaray treni ve pantografı; önde yürüyen merdiven çukuru, 'ÇEŞMESİ 1' totemi ve granit meydan döşemesi. Arkada ikinci bir kanopi hattı ve AVM cephesi.",
+   "useful": true,
+   "notes": "Tren gövdesi üzerinden peron kotu/ray kotu farkı ve çitin tren yüksekliğine oranı kabaca ölçülebiliyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/platforms/Ayrılık çeşmesi platform.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "signage",
+    "lighting",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Peron üzerinden hat boyunca panoramik görünüm: ortada ağaç dalı gibi eğimli konsol kirişlerle taşınan, dışa doğru yukarı kıvrılan beyaz saçaklı kanopi; sağda TCDD ve Bakanlık armalı mavi 'AYRILIK ÇEŞMESİ' istasyon adı levhası, iki yanda kalıp izli beton istinat duvarı ile yeşil panel çit.",
+   "useful": true,
+   "notes": "Kanopinin ince konsol geometrisi, çift kollu sokak tipi aydınlatma direkleri, kırmızı yangın dolabı kolonu, peron kenarındaki sarı taktil şeritler ve büyük gri plak döşeme aynı karede; en iyi peron referansı."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/entrances/Ayrılıkçeşmesi Metro Station.JPG",
+   "category": "entrances",
+   "secondary": [
+    "escalators",
+    "stairs",
+    "walls",
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Giriş çukurunun tepeden net görünümü: iki yanda paslanmaz korkuluklu yürüyen merdivenler, ortada basamaklı merdiven, alın duvarında bronz-bakır renkli fayans panelde İBB arması ve 'AYRILIK ÇEŞMESİ İSTASYONU 2013' yazısı. Sağda Tepe Nautilus AVM cephesi, arkada yeşil camlı asansör kulesi.",
+   "useful": true,
+   "notes": "Alın duvarı fayans modülü, merdiven-yürüyen merdiven genişlik oranı ve giriş ağzı açıklığı en net burada. Zeminde sarı noktalı uyarı plakası."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/architectural_details/Ayrılıkçeşmesi Station Marmaray.JPG",
+   "category": "architectural_details",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "platforms",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "İstasyonun yoldan çekilmiş yan cephe/kesit görünümü: beyaz metal saçaklı kanopinin dıştan profili, eğri konsol kirişler ve altındaki yeşil boyalı düşey elemanlar, kanopinin içinden geçen kalın galvaniz katener direği ve bum sistemi. Önde beton bariyer ve yeşil panel çit, arkada minare.",
+   "useful": true,
+   "notes": "Kanopinin strüktürel kurgusu (kolon - konsol - saçak) ve yükseklik oranları için en iyi kare. Solda hi-vis yelekli işçiler ve çevre düzenlemesi tamamlanmamış alan var, ancak istasyon yapısı bitmiş durumda."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/signage/BC1 KAZLIÇEŞME - AYRILIKÇEŞMESİ MARMARAY HATTI.jpg",
+   "category": "signage",
+   "secondary": [],
+   "state": "completed",
+   "subject": "Bilet holü duvarına asılı Marmaray hat şeması levhası: Kazlıçeşme (Zeytinburnu) - Yenikapı - Sirkeci - Üsküdar - Ayrılık Çeşmesi (Kadıköy) dizilimi, aktarma ikonları, TCDD/Marmaray logoları ve kırmızı-mavi dalga grafiği.",
+   "useful": false,
+   "notes": "Mimari yüzey değil; sadece grafik. Yine de levhanın arkasındaki krem büyük format duvar fayansı ve asma tavan yansıması dolaylı bilgi veriyor."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/tracks/Marmaray Ayrılık Çeşmesi istasyonu - İstanbul.jpg",
+   "category": "tracks",
+   "secondary": [
+    "walls",
+    "signage",
+    "platforms"
+   ],
+   "state": "completed",
+   "subject": "Peron kenarından karşı tarafa bakış: balastlı ray, üzerinde yüksek ve kalıp izli ham beton istinat duvarı, duvarın üstünde yeşil kaynaklı panel çit ve çite asılı beyaz zemin üzerine siyah 'AYRILIK ÇEŞMESİ' istasyon adı levhası. Çitin ardında park ve yüksek gerilim uyarı levhası.",
+   "useful": true,
+   "notes": "Açık kesit (hendek) kesitini, duvar dokusunu, çit panel modülünü ve ikinci tip istasyon adı levhasını veren en net kare."
+  },
+  {
+   "file": "stations/Ayrılık_Çeşmesi/completed/platforms/MarmarayAyrılıkÇeşmesiStation.JPG",
+   "category": "platforms",
+   "secondary": [
+    "tracks",
+    "ceilings",
+    "columns",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Peronda duran kırmızı-beyaz-lacivert Marmaray treni (E 32002, hedef 'KAZLIÇEŞME'): solunda beton istinat duvarı, sağında kanopi altındaki peron, peron kenarında çift sıra sarı hissedilebilir şerit ve arkaya doğru uzayan kolon dizisi. Arkada AVM cephesi ve katener direkleri.",
+   "useful": true,
+   "notes": "Tren gövdesi bilinen bir ölçek referansı olduğu için peron yüksekliği, taktil şerit genişliği ve kanopi alt kotu buradan oranlanabiliyor."
+  }
+ ],
+ "Kazlıçeşme": [
+  {
+   "file": "stations/Kazlıçeşme/completed/platforms/Kazlicesme marmaray.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "signage",
+    "stairs",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "2013 dönemi Marmaray peronundan uzun eksen boyunca çekim: solda kapıları açık Marmaray banliyö treni, sağda ikinci peron ve orada bekleyen ikinci tren. Üstte kavisli çelik kanopi, yarı saydam çatı panelleri, asılı 'Çıkış / Exit' tabelası ve peronun ortasından alt geçide inen merdiven görülüyor.",
+   "useful": true,
+   "notes": "Paketin mekânsal kurgu açısından en bilgi yoğun fotoğrafı: kanopi kesiti, kolon dizilimi, peron genişliği, tactile şerit, merdiven boşluğu ve karşı peron aynı karede."
+  },
+  {
+   "file": "stations/Kazlıçeşme/completed/signage/Kazlıçeşme Tren İstasyonu.jpg",
+   "category": "signage",
+   "secondary": [
+    "platforms",
+    "lighting",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Peronun kanopisiz (açık) kesiminden çekim: önde mavi borulu ayaklar üzerinde, T.C. Ulaştırma ve Altyapı Bakanlığı + TCDD logolu, kırmızı-mavi bantlı mavi emaye 'KAZLIÇEŞME' istasyon tabelası. Arkada Y/T kollu çift başlıklı beyaz aydınlatma direkleri, cam rüzgârlık kabinleri, perfore metal banklar ve arka planda kiremit çatılı tarihi sarı taş yapı.",
+   "useful": true,
+   "notes": "Tabela tipolojisi, direk formu, bank ve cam kabin mobilyası için birincil kaynak. Arkadaki tarihi bina çevre modellemesi için de kullanılabilir."
+  },
+  {
+   "file": "stations/Kazlıçeşme/completed/tracks/Kazlıçeşme marmaray.jpg",
+   "category": "tracks",
+   "secondary": [
+    "platforms",
+    "architectural_details",
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Peron kenarından hatlara bakış: balast üzerinde beton traversli en az üç hat, üstte katener (havai hat) direkleri ve askı sistemi. Karşı peronda küçük bir sundurma/bekleme yapısı, siyah çerçeveli 'KAZLIÇEŞME' tabelası, mavi LED yolcu bilgilendirme ekranı, kırmızı acil durum dolabı ve 'U' işaretli yön panosu; arkada otopark ve iki rezidans kulesi.",
+   "useful": true,
+   "notes": "Balast/travers dokusu, hat sayısı, peron kenar taşı (coping) profili ve katener düzeni için en iyi referans."
+  },
+  {
+   "file": "stations/Kazlıçeşme/completed/architectural_details/Kazlıçeşme-Marmaray.JPG",
+   "category": "architectural_details",
+   "secondary": [
+    "walls",
+    "ceilings",
+    "lighting",
+    "signage",
+    "platforms"
+   ],
+   "state": "completed",
+   "subject": "Gece çekimi: peron sundurmasının alın duvarını kaplayan gül kurusu/pembe seramik karo pano üzerinde kabartma (rölyef) kompozisyon - uçan kazlar, su kenarında yürüyen bir kaz, lale/saz bitkileri ve dalgalı su bandı. Sağda kavisli çelik kanopi, lineer aydınlatma armatürü, kubbe kamera ve asılı 'KAZLIÇEŞME' tabelası.",
+   "useful": true,
+   "notes": "İstasyonun kimliğini taşıyan tek ve en ayırt edici öge. Karo ızgarası net okunduğu için pano oranları buradan ölçülebiliyor."
+  },
+  {
+   "file": "stations/Kazlıçeşme/completed/signage/Sirkeci-Kazlıçeşme Rail System route.jpg",
+   "category": "signage",
+   "secondary": [],
+   "state": "completed",
+   "subject": "Peronda duran, metal profil ayaklar üzerinde beyaz zeminli hat şeması panosu: 'SİRKECİ YÖNÜ' oku, Kazlıçeşme'den Sirkeci'ye istasyon dizisi (Yedikule, Kocamustafapaşa, Cerrahpaşa, Yenikapı, Kumkapı, Cankurtaran, Sirkeci) ve aktarma logoları.",
+   "useful": false,
+   "notes": "Bilgi panosu/harita; mimari yüzey bilgisi taşımıyor. Yalnızca pano gövdesinin ayak detayı (çift dikme, kelepçe bağlantı) dolaylı olarak kullanılabilir."
+  },
+  {
+   "file": "stations/Kazlıçeşme/construction/platforms/T6 Kazlıçeşme Station.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "walls",
+    "entrances",
+    "signage"
+   ],
+   "state": "construction",
+   "subject": "Karşı peronun tamamlanmak üzere olan yeni (T6 / 2023) bölümü: düz saçaklı, beyaz kompozit panel kaplı yatay kanopi, açıkta bırakılmış çelik kirişler, kırmızı tuğla kaplı servis/teknik bina, yeşil camlı asansör kulesi ve siyah çerçeveli 'KAZLIÇEŞME' tabelaları. Peronda alüminyum merdiven, el arabası ve kırmızı-beyaz plastik bariyer duruyor.",
+   "useful": true,
+   "notes": "İnşaat ipuçları: merdiven, el arabası, plastik bariyer, henüz kullanıma kapalı bölüm. Yine de 2023 kanopi tipolojisi ve tuğla kaplamalı bina için geçerli referans."
+  },
+  {
+   "file": "stations/Kazlıçeşme/completed/platforms/TCDD E32000 at Kazlıçeşme, 2024 01.jpg",
+   "category": "platforms",
+   "secondary": [
+    "tracks",
+    "flooring",
+    "signage",
+    "lighting",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Peron kenarından aşağı/ileri bakış (fotoğraf 90 derece döndürülmüş): önde granit görünümlü gri peron döşemesi, sarı tırtıklı tactile uyarı şeridi ve üzerinde 'DİKKAT! SARI ÇİZGİYİ GEÇMEK TEHLİKELİ VE YASAKTIR / DO NOT CROSS THE YELLOW LINE' baskılı sarı bant; yanda beton kenar taşı ve balastlı hat; geride kırmızı acil durum/yangın dolapları, yeşil 'Acil Durum Telefonu' tabelası, L kollu aydınlatma direkleri ve beyaz-kırmızı E32000 dizisi.",
+   "useful": true,
+   "notes": "Peron kenar katmanlarının (döşeme karosu - tactile şerit - uyarı yazılı bant - beton coping) sırası en net burada okunuyor. Arka planda bir iskele kulesi var, yakın çevrede iş devam ediyor olabilir."
+  },
+  {
+   "file": "stations/Kazlıçeşme/completed/platforms/TCDD E32000 at Kazlıçeşme, 2024 02.jpg",
+   "category": "platforms",
+   "secondary": [
+    "tracks",
+    "flooring",
+    "lighting",
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Peron başından çekim: beyaz-kırmızı TCDD E32000 dizisi peronda duruyor, koşucu bağlantı aparatı beyaz brandayla örtülü. Peronda sarı tactile şerit ile ona paralel ince kırmızı çizgi, benekli gri döşeme karoları, L kollu aydınlatma direkleri, yeşil çıkış tabelası, telli çit ve AYGM logolu beyaz bayraklar.",
+   "useful": true,
+   "notes": "Düşük çözünürlüklü (843x1122) ama peron döşeme dokusu, kırmızı çizgi ve direk aralığı için kullanışlı. Bayraklar açılış/test seferi dönemine işaret ediyor."
+  }
+ ],
+ "Sirkeci": [
+  {
+   "file": "stations/Sirkeci/completed/entrances/20131207 Istanbul 230.jpg",
+   "category": "entrances",
+   "secondary": [
+    "lighting",
+    "columns",
+    "stairs"
+   ],
+   "state": "completed",
+   "subject": "Gece cekilmis, Cagaloglu girisinin cukurlastirilmis (sunken) on avlusu: krem sivali duvarlar, yuvarlak kesitli silindirik bir kolon, paslanmaz celik boru korkulukli rampa ve merdiven. Tavanda kablo askili ray uzerine monte iki sirali floresan armaturler, girisde kepenkli kapi ve icerideki 'Trene Gidis' tabelasi goruluyor.",
+   "useful": true,
+   "notes": "Dis mekan girisin mimarisi net: kavisli ust kiris/soffit, metal izgara (louvre) camli duvar paneli, gri celik servis kapisi, kirmizi yangin butonu. Aydinlatma armatur tipi acikca okunuyor."
+  },
+  {
+   "file": "stations/Sirkeci/completed/walls/Istanbul Feb 2020 11 28 38 750000.jpeg",
+   "category": "walls",
+   "secondary": [
+    "architectural_details",
+    "tunnels",
+    "tracks",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "Peronun karsi tarafindaki tunel duvarina monte, el boyamasi Iznik/Kutahya tarzi buyuk seramik karo pano: demiryolu rayi bordurlu, krem-altin zeminli, Haydarpasa Gari, 1908 tarihli saat, eski buharli lokomotif, Galata Kulesi, bogaz koprusu, Sirkeci Gar kubbesi, vapur ve Marmaray treni islenmis. Pano ustunde surekli lineer serit aydinlatma var.",
+   "useful": true,
+   "notes": "Pano uzerindeki ciplak beton tunel segmanlari, nervurleri, kablo tavalari ve kablolar net goruluyor; karsi duvarin ham beton oldugunu kanitliyor. Altta rayli hat ve traversler."
+  },
+  {
+   "file": "stations/Sirkeci/completed/entrances/Marmaray - Sirkeci Station Cagaloglu Entrance.jpg",
+   "category": "entrances",
+   "secondary": [
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Sokak kotundaki Cagaloglu giris pavyonu: krem/bej sivali, kademeli sacak-kornis profilli dikdortgen kutle, uzerinde siyah kesme harflerle 'MARMARAY / SIRKECI ISTASYONU / CAGALOGLU GIRISI' yazisi. Genis acikliga metal kepenk, onunde granit basamaklar ve paslanmaz korkuluk, cephede iki duvar aydinlatmasi.",
+   "useful": true,
+   "notes": "Giris yapisinin kutle orantilari, kornis kademeleri ve harf yerlesimi dogrudan kullanilabilir. Sagda Marmaray yonlendirme totemi de goruluyor."
+  },
+  {
+   "file": "stations/Sirkeci/completed/platforms/Marmaray Sirkeci Metro İstasyonu Güney (Cağaloğlu) Girişi, Istanbul, Turkey (Unsplash).jpg",
+   "category": "platforms",
+   "secondary": [
+    "signage",
+    "lighting",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Dosya adi 'giris' dese de fotograf cok karanlik bir peron sahnesini gosteriyor: asili isikli cift yuzlu 'CIKIS / EXIT' kutu tabela (1-2-3-4 cikis numaralari, yurüyen merdiven/asansor piktogramlari), tavanda gomme izgarali (louvre) floresan armatur, duvar ust kotunda surekli lineer isik yarigi. Peron kenarinda sari taktil serit ve zemine boyali '10 VAGONLU TRENE BINIS' kapi konumu isaretleri.",
+   "useful": true,
+   "notes": "Peron duvarinin koyu (yesilimsi) ve isiksiz oldugu, aydinlatmanin duvar ust kotundan lineer serit halinde geldigi okunuyor. Zemin dogrusal cizgili desen ve sari taktil serit net."
+  },
+  {
+   "file": "stations/Sirkeci/completed/platforms/Sirkeci Marmaray.jpg",
+   "category": "platforms",
+   "secondary": [
+    "walls",
+    "ceilings",
+    "flooring",
+    "signage",
+    "tracks"
+   ],
+   "state": "completed",
+   "subject": "Peron boyunca bakis: sag duvar buyuk ebatli krem/bej rektifiye panel kaplamali, uzerinde koyu renkli bir nis bandi icinde 'SIRKECI' istasyon ismi tabelasi. Tavanda uzunlamasina metal serit/lamel kaplama ve aralarinda tesisatin gorundugu koyu bosluklar, solda hat uzerini orten kavisli tunel tonozu; peron kenarinda sari taktil serit, zeminde parlak granit/terrazzo plakalar ve seritli bandlar, duvar onunde gri boru profilli bank.",
+   "useful": true,
+   "notes": "Peron kesitinin anahtar referansi: duvar panel grid olcusu, istasyon ismi tabelasinin nis icindeki konumu, tavan serit sistemi, bank tipi, mavi PIS ekrani, kirmizi yangin dolabi ve afis panolari ayni karede."
+  },
+  {
+   "file": "stations/Sirkeci/completed/ticket_halls/Sirkeci Turnike.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "ceilings",
+    "walls",
+    "flooring",
+    "signage",
+    "escalators"
+   ],
+   "state": "completed",
+   "subject": "Gar girisi turnike kati: solda mavi cerceveli, lacivert zeminli Iznik tarzi Istanbul silueti karo panosu, duvarlar krem kare karo kaplamali; tavan koyu gri acik gozlu izgara (eggcrate) asma tavan ve icine gomulu prizmatik izgarali floresan panolar. Ortada yaklasik dokuz gecisli, kirmizi kanatli paslanmaz turnike bankosu, onunde kirmizi seritli bariyer direkleri, sagda biletmatikler ve kuyruk, on planda yurüyen merdiven korkulugu, tavanda 'Trene Gidis / To Trains' asma tabela.",
+   "useful": true,
+   "notes": "Bilet holunun tam duzeni: tavan grid olcusu, armatur yerlesimi, turnike sayisi ve dizilimi, benekli granit zemin uzerindeki dogrusal bandlar, guvenlik kamerasi ve afis cerceveleri."
+  },
+  {
+   "file": "stations/Sirkeci/completed/walls/Sirkeci metro station 5311.jpg",
+   "category": "walls",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Duvardaki buyuk seramik karo panonun sol yarisinin duz cepheden detayi: demiryolu rayi bordur, 1908 tarihli istasyon saati, Haydarpasa Gari, asma kopru, eski buharli lokomotif, Galata Kulesi ve tunel portali. Karolarin kare modulu ve derz cizgileri net secilliyor.",
+   "useful": true,
+   "notes": "Dogrudan doku (texture/decal) kaynagi olarak kullanilabilecek kalitede, duz ve tam cerceveli cekim."
+  },
+  {
+   "file": "stations/Sirkeci/completed/walls/Sirkeci metro station 5312.jpg",
+   "category": "walls",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Ayni seramik karo panonun sag yarisi: cam kubbeli Sirkeci Gar binasi, tarihi yarimada siluetinin camileri, vapurlar, yelkenli ve altta boydan boya uzanan Marmaray treni; ust ve alt kenarda demiryolu rayi bordur devam ediyor.",
+   "useful": true,
+   "notes": "5311 ile birlikte panonun tamamini olusturuyor; karo grid sayimi ve pano en/boy orani buradan cikarilabilir."
+  },
+  {
+   "file": "stations/Sirkeci/completed/walls/Sirkeci metro station 6322.jpg",
+   "category": "walls",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Istasyondaki soyut desenli ikinci karo panonun detayi: yesil, petrol mavisi, zeytin yesili ve gri tonlarda, ic ice gecmis daireler, pergel/gunes cicegi benzeri isinsal bolumlemeler ve siyah ucgen oklarla kurulmus geometrik kompozisyon. Parlak sirli karo yuzeyi ve kare derz grid'i goruluyor.",
+   "useful": true,
+   "notes": "Figuratif panolarin yaninda soyut bir pano da bulundugunu kanitlar; doku kaynagi olarak kullanilabilir."
+  },
+  {
+   "file": "stations/Sirkeci/completed/walls/Sirkeci metro station 6323.jpg",
+   "category": "walls",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Duvara monte, sari cerceveli tarihi harita panosu: 'Byzantium nunc Constantinopolis' basligiyla eski Istanbul kus bakisi haritasi, kenarlarda Osmanli padisah madalyonlari, altta atli figur. Pano karo karo isleniyor; cevresinde istasyonun beyaz/krem kare duvar karolari goruluyor.",
+   "useful": true,
+   "notes": "Icerigi harita olsa da fiziksel olarak istasyonun duvar yuzeyinin bir parcasi; cevresindeki beyaz karo kaplama ve derz araligi da bu karede olculebilir."
+  },
+  {
+   "file": "stations/Sirkeci/completed/ticket_halls/Sirkeci metro station 6326.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "walls",
+    "ceilings",
+    "flooring",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "Genis holun genel gorunumu: duvarda mavi cerceveli, lacivert zeminli buyuk Iznik tarzi Istanbul panoramasi panosu, cevresi krem kare karo kaplama; tavan koyu gri/siyaha calan acik gozlu izgara asma tavan, icinde gomme izgarali floresan panolar, sprinkler ve duman dedektorleri; zemin benekli gri granit plaka. Onde panonun onunde fotograf cektiren ziyaretciler var.",
+   "useful": true,
+   "notes": "Istasyonun en degerli olcek referansi: insanlara gore tavan yuksekligi, pano boyutu, karo modulu ve zemin plaka olcusu ayni karede karsilastirilabiliyor."
+  },
+  {
+   "file": "stations/Sirkeci/completed/signage/Sirkeci yön.jpg",
+   "category": "signage",
+   "secondary": [
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "Krem karo duvara monte, beyaz zeminli hat semasi panosu: solda mavi 'HALKALI YONU / Peron 1', sagda kirmizi 'GEBZE YONU / Peron 2' oklari, ortada Halkali-Gebze arasi tum istasyonlarin dogrusal diyagrami ve Sirkeci'nin kirmizi konum isaretcisi, ustte TCDD/Marmaray/Bakanlik logolari, altta isaretler lejandi.",
+   "useful": true,
+   "notes": "Fotograf 90 derece dondurulmus cekilmis. Icerigi hat haritasi olmakla birlikte peron numaralandirmasini (Peron 1 = Halkali, Peron 2 = Gebze) ve pano tipi/duvara montaj bicimini belgeliyor."
+  },
+  {
+   "file": "stations/Sirkeci/completed/signage/Sirkeci çıkış tabelası.jpg",
+   "category": "signage",
+   "secondary": [
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "Dort cikisi gosteren beyaz zeminli, siyah metinli 'CIKIS / EXIT' tabelasinin yakin cekimi: kare cercevelerde 1-2-3-4 numaralari, her satirda hedef noktalar (Sirkeci Gar, Eminonu Meydan, Gulhane, Cagaloglu, Ayasofya, Kapali Carsi vb.), yurüyen merdiven ve asansor piktogramlari, kirmizi yon oklari. Tabela koyu yesil sirli karo kapli bir duvara monte.",
+   "useful": true,
+   "notes": "Istasyonun bazi dolasim alanlarinda koyu yesil karo kaplama kullanildiginin tek net kaniti. Tabela tipografisi ve duzeni decal olarak birebir kullanilabilir."
+  },
+  {
+   "file": "stations/Sirkeci/completed/entrances/Sirkeci İstasyonu girişi.jpg",
+   "category": "entrances",
+   "secondary": [
+    "ceilings",
+    "stairs",
+    "escalators",
+    "signage",
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "Istasyon giris holu yukaridan: beyaz/acik gri buyuk dikdortgen panel kapli duvar yuzeyinde siyah kesme harflerle 'MARMARAY SIRKECI ISTASYONU' yazisi; yazinin altindaki asili kutle koyu gri acik gozlu izgara tavanli, icinde gomme izgarali armaturler. Asagi inen genis orta merdiven ve iki yanda yurüyen merdivenler, yan duvarlarda afis cerceveleri.",
+   "useful": true,
+   "notes": "Giris holu kesiti ve duvar paneli grid olcusu net; harflerin panel grid'ine gore yuksekligi olculebilir. Merdiven + cift yurüyen merdiven duzeni buradan cikarilabilir."
+  }
+ ],
+ "Söğütlüçeşme": [
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/Sogutlucesme Marmaray station.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "signage",
+    "lighting",
+    "tracks",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Marmaray peronundan doğuya bakış: solda yolcuların beklediği yan peron, ortada iki Marmaray hattı, sağda gri ACP panel kaplı, tam boy camlı peron binası. Haki-yeşil boyalı çelik kolonlar, trapez sac kanopi altı, asılı beyaz disk saat ve 'Asansör/Elevator' yönlendirme tabelası görülüyor.",
+   "useful": true,
+   "notes": "Paketin tek gerçek Marmaray peron mekânı fotoğrafı. Kolon-kanopi-peron binası ilişkisini, sarı tırtıklı hissedilebilir yüzey şeridini ve çift dilli tabela tipini aynı karede veriyor. 2019 tarihli."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/unclear/ticket_halls/Söğütlüçeşme YHT girişi (1) 2025.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "ceilings",
+    "walls",
+    "signage",
+    "flooring",
+    "lighting",
+    "entrances"
+   ],
+   "state": "unclear",
+   "subject": "YHT istasyon binası giriş holü: koyu ceviz tonlu ahşap lamel (baffle) tavan, gömülü lineer LED şeritler, asılı siyah kasalı nokta-matris LED 'YHT GİRİŞ' tabelası ve turuncu ok. Sağda açık meşe ahşap kaplama duvara uygulanmış devasa ışıklı '1' peron numarası, solda paslanmaz turnike dizisi.",
+   "useful": true,
+   "notes": "İstasyonun en ayırt edici iç mekân karesi. Zeminde karton koruma, turnike önünde bariyer: ince işler devam ediyor olabilir, bu yüzden 'unclear'."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/unclear/ticket_halls/Söğütlüçeşme YHT girişi (2) 2025.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "walls",
+    "ceilings",
+    "flooring",
+    "lighting",
+    "signage"
+   ],
+   "state": "unclear",
+   "subject": "Aynı holün 2 numaralı peron girişi: ahşap kaplama duvarda halo-ışıklı '2' numarası iki kez (yakın ve uzak duvarda) tekrarlanıyor. Lamel tavan, dome kameralar, yeşil kaçış tabelası, bej büyük format taş karo zemin ve zemine gömülü lineer ızgara kanallar görülüyor.",
+   "useful": true,
+   "notes": "Ahşap kaplama panel derzlerini ve ışıklı rakam / duvar oranını en net veren kare. Kırmızı şeritli bariyer dizisi ve 'YHT İstasyon Binası ... imalatlarının yapılması işi' ilan panosu nedeniyle 'unclear'."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/HT80114, Söğütlüçeşme İstasyonu’nda bekliyor 2025.jpg",
+   "category": "platforms",
+   "secondary": [
+    "lighting",
+    "architectural_details",
+    "tracks"
+   ],
+   "state": "completed",
+   "subject": "Gece YHT peronunda bekleyen HT80114 Velaro seti. Kanopinin saçak hattı boyunca uzanan kesintisiz lineer LED ışık çizgisi ve sarkıt spotlar, arkada TCDD logolu serigrafi desenli cam korkuluklar görülüyor.",
+   "useful": true,
+   "notes": "Gece aydınlatma imzası için ana referans: tek parça LED çizgi + nokta spotlar + logolu cam frit."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/CAF Siemens.jpg",
+   "category": "platforms",
+   "secondary": [
+    "lighting",
+    "tracks",
+    "flooring",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Gece iki YHT setinin (HT65003 ve HT80115) yan yana durduğu peron. Kanopi altındaki kesintisiz LED şerit, arkada camlı istasyon binası cephesi, önde gri taş peron döşemesi ve sarı zemin yazısı 'BOŞLUĞA DİKKAT / MIND THE GAP'.",
+   "useful": true,
+   "notes": "Peron zemini sarı ikaz çizgisi + zemin yazısı ve kanopi-bina ilişkisi için iyi."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/HT 80108 @ Söğütlüçeşme, Istanbul Turkey 2023.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "tracks",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Gündüz YHT peronu: düz, sığ, açık gri kanopi ve derin düz saçak bandı; ince çelik kolonlar; sarı hissedilebilir yüzey ve 'BOŞLUĞA DİKKAT' yazısı; balastlı hat ile peron kenarı arasındaki gri delikli kablo kanalı kapakları.",
+   "useful": true,
+   "notes": "Kanopi kesiti, saçak bandı derinliği ve peron kenarı/kablo kanalı detayı için en açık gündüz karesi."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025 6.jpg",
+   "category": "platforms",
+   "secondary": [
+    "flooring",
+    "columns",
+    "tracks",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Peron ucundan HT80113'ün yanaşması. Solda kare formatlı büyük gri granit döşeme plakaları ve sarı-siyah ikaz boyalı beton kolon kaidesi; sağda TCDD logolu serigrafi desenli cam rüzgarlık, delikli metal bank ve eğimli dayanma paneli.",
+   "useful": true,
+   "notes": "Zemin plak modülü, kolon kaidesi ve cam korkuluk desenini aynı karede veren en ölçülebilir fotoğraf."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/ceilings/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025 7.jpg",
+   "category": "ceilings",
+   "secondary": [
+    "platforms",
+    "architectural_details",
+    "tracks"
+   ],
+   "state": "completed",
+   "subject": "Peronda duran YHT setinin yanından kanopiye bakış: kanopinin alt yüzeyi, boyuna kirişler ve kalın düz saçak bandı ile üstteki galvanizli katener portal kafesleri birlikte görülüyor.",
+   "useful": true,
+   "notes": "Kanopi alt yüzeyi ve saçak bandı profili için en iyi açı."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025 5.jpg",
+   "category": "platforms",
+   "secondary": [
+    "tracks",
+    "flooring",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Kanopisiz peron ucundan hat düzenine bakış: makaslar, balastlı ve beton traversli hatlar, sağda yüksek beton peron kenar duvarı (kalıp derzleri belli), cam-metal rüzgarlık dizisi ve 'V60' hız levhası.",
+   "useful": true,
+   "notes": "Peron kenar duvarının yüksekliği ve kalıp deseni, makas yerleşimi için faydalı."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/tracks/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025 4.jpg",
+   "category": "tracks",
+   "secondary": [
+    "platforms",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Yaklaşan YHT setiyle birlikte istasyon boğazındaki çoklu hat/makas düzeni, iki yanda peron kenarları ve arkadaki Kadıköy yerleşim dokusu.",
+   "useful": true,
+   "notes": "5 ve 3 numaralı karelerle neredeyse aynı kompozisyon; hat geometrisi için yedek referans."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/tracks/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025 3.jpg",
+   "category": "tracks",
+   "secondary": [
+    "platforms",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Aynı noktadan çekilmiş, trenin biraz daha uzakta olduğu kare: peron ucu döşemesi, beton kenar duvarları, makaslar ve katener portalları.",
+   "useful": true,
+   "notes": "Seri çekimin tekrarı; yeni bilgi az."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/tracks/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025 2.jpg",
+   "category": "tracks",
+   "secondary": [
+    "platforms",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Aynı serinin bir başka karesi; uzakta yaklaşan YHT, önde peron döşemesi ve hat düzeni.",
+   "useful": true,
+   "notes": "Seri tekrarı."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/tracks/HT80113 Söğütlüçeşme'ye yaklaşıyor 13042025.jpg",
+   "category": "tracks",
+   "secondary": [
+    "platforms"
+   ],
+   "state": "completed",
+   "subject": "Serinin ilk karesi; en uzaktaki YHT ile istasyon boğazı, katener portalları ve iki peron kenarı.",
+   "useful": true,
+   "notes": "Seri tekrarı."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/unclear/signage/Marmaray Söğütlüçeşme istasyonu 2 - İstanbul.jpg",
+   "category": "signage",
+   "secondary": [
+    "platforms",
+    "flooring",
+    "entrances"
+   ],
+   "state": "unclear",
+   "subject": "Peron ucundaki serbest duran TCDD isim tabelası pilonu: solda beyaz zeminde Ulaştırma Bakanlığı arması ve TCDD logosu, sağda mavi zeminde beyaz 'SÖĞÜTLÜÇEŞME' yazısı; iki ince siyah direk sarı-siyah boyalı beton kaidelere oturuyor. Önde boru korkuluk ve 'GİRİLMEZ / NO ENTRY' levhası.",
+   "useful": true,
+   "notes": "İstasyon adı tabelasının tipolojisi ve oranları için ana referans. _meta.json açıklaması yanlış ('Ayrılık Çeşmesi' yazıyor) — fotoğraf net biçimde Söğütlüçeşme. Merdiven/koni/şantiye izleri nedeniyle durum 'unclear'."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/ticket_halls/Söğütlüçeşme railway station.jpg",
+   "category": "ticket_halls",
+   "secondary": [
+    "ceilings",
+    "signage",
+    "columns",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "Marmaray alt kotu / bilet holü önü: trapez sac tavan altı, çelik kafes ara kirişler ve kablo tavaları; kapalı oluklu kepenkler; koyu gri kaplı ikiz asansör kuyuları; siyah yazılı SARI derin kiriş bandı üzerinde 'SÖĞÜTLÜÇEŞME İSTASYONU' + Bakanlık arması + AYGM logosu.",
+   "useful": true,
+   "notes": "Dosya BAŞ AŞAĞI kaydedilmiş — modellemeden önce 180° döndürülmeli. Sarı kimlik bandı istasyonun en ayırt edici alt kot öğesi."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/signage/Söğütlüçeşme İstasyonu’ndaki bilgilendirme ekranı 2025.jpg",
+   "category": "signage",
+   "secondary": [
+    "ceilings",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "Duvara monte tam renkli LED varış panosu ('GELEN TRENLER / ARRIVALS', Bakanlık arması ve TCDD logosu ile). Üstünde holün BEYAZ lamel tavan varyantı ve lamellerin arasından görünen tesisat boşluğu.",
+   "useful": true,
+   "notes": "Hem tabela grafiği hem de beyaz lamel tavan varyantı ve lamel aralığı için kullanışlı."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/unclear/platforms/Marmaray, Söğütlüçeşme İstasyonu’na yaklaşıyor 2025.jpg",
+   "category": "platforms",
+   "secondary": [
+    "flooring",
+    "tracks",
+    "lighting"
+   ],
+   "state": "unclear",
+   "subject": "Alacakaranlıkta yaklaşan Marmaray seti; önde büyük format gri peron döşemesi, sarı-siyah boyalı beton kaideler, 'S12SOG' etiketli sinyal direği ve kaplaması tamamlanmamış görünen istinat duvarı.",
+   "useful": true,
+   "notes": "Duvarda sarkan kablolar, dayalı merdiven ve koni var; bitmemiş imalat ihtimali nedeniyle 'unclear'. Peron döşeme plak modülü iyi okunuyor."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/signage/HT80000 bilgilendirme ekranı 2025.jpg",
+   "category": "signage",
+   "secondary": [],
+   "state": "completed",
+   "subject": "YHT aracının yan cephesindeki turuncu nokta-matris güzergâh ekranı: 'YHT 81308 Söğütlüçeşme–Bozüyük–Eskişehir–Selçuklu/Konya' ve 06 vagon numarası.",
+   "useful": false,
+   "notes": "Tamamen araç üzeri ekran; istasyon mimarisi yok."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/Sogutlucesme station.JPG",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "walls",
+    "flooring",
+    "tracks"
+   ],
+   "state": "completed",
+   "subject": "2011 tarihli ESKİ istasyon: konsol beton kanopiler, altında oluklu/trapez sac nervürlü tavan, peron boyunca uzanan tam camlı rüzgarlık/bekleme hacimleri, mavi tabanlı beyaz kolonlar, asfalt peron ve karşı peronda sarı-beyaz blok şeritli kenar.",
+   "useful": true,
+   "notes": "YIKILMIŞ eski istasyonu gösteriyor — bugünkü yapı değil. Tarihsel varyant veya 'eski izler' modellemesi için değerli, güncel referans olarak kullanılmamalı."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/entrances/Sögütlücesme station.jpg",
+   "category": "entrances",
+   "secondary": [
+    "walls",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "2011'de eski istasyonun sokak kotu: viyadük/istasyon platformunun yan cephesi, parapette mavi çubuk korkuluk dizisi, altında 'SÖĞÜTLÜÇEŞME SOSYAL TESİSİ' (TCDD lokantası, mavi tenteler), solda camlı asansör/giriş kulesi ve direk üstü yuvarlak saat.",
+   "useful": true,
+   "notes": "İstasyonun viyadük üzerinde oturduğunu ve alt kotun ticari/sosyal kullanıldığını gösteren tek sokak kotu karesi. Eski dönem."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/E43009 at Sogutlucesme.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "2011'de eski istasyon peronunda bekleyen yolcular ve gelen E43009 çekili anahat treni. Konsol kanopinin nervürlü sac alt yüzeyi, mavi tabanlı kolonlar, mavi kapılı servis hacmi ve karşı peronun sarı-beyaz blok şeritli kenarı.",
+   "useful": true,
+   "notes": "Eski kanopi kesiti ve kolon rengi için net kare. Eski dönem."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/Sögütlücesme kar.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "lighting"
+   ],
+   "state": "completed",
+   "subject": "2012 kışında karla kaplı eski peron; konsol kanopi alt yüzeyindeki nervür deseni ve beyaz kolonların alt bölümünün mavi boyanması çok net görülüyor.",
+   "useful": true,
+   "notes": "Düşük çözünürlük (960x720) ama kolon mavi bant oranı için en okunaklı kare. Eski dönem."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/platforms/Söğütlüçeşme - panoramio.jpg",
+   "category": "platforms",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Eski peron kenarından Kurbağalıdere vadisine ve Kadıköy'e bakış. Ön planda sarı-beyaz blok şeritli peron kenarı ve mavi çubuk korkuluk, altta cadde ve park.",
+   "useful": true,
+   "notes": "Karenin büyük kısmı uzak şehir manzarası; sadece ön plandaki peron kenarı şeridi ve mavi korkuluk modelleme için işe yarıyor."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/architectural_details/Kurbağlıdere cad. - panoramio.jpg",
+   "category": "architectural_details",
+   "secondary": [
+    "entrances"
+   ],
+   "state": "completed",
+   "subject": "2009'da Kurbağalıdere caddesinden istasyon viyadüğü: beton kiriş/tabliye, parapette mavi çubuk korkuluk, viyadük altında yol alt geçidi ve üstte geçen mavi-krem banliyö treni.",
+   "useful": true,
+   "notes": "İstasyonun taşıyıcı altyapısının (viyadük + alt geçit) kentsel bağlamını veren tek kare. Eski dönem."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/architectural_details/2021 09 06 Sogutlucesme Tren Istasyonu Eski Lokomotif.jpg",
+   "category": "architectural_details",
+   "secondary": [
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "İstasyon bahçesinde sergilenen, boyası dökülmüş siyah-turuncu tarihî buharlı lokomotif; arkasında yeşil panel çit, önünde beton sedde ve paslanmaz boru korkuluk.",
+   "useful": true,
+   "notes": "Peyzaj/çevre öğesi: sergi lokomotifi + beton sedde + korkuluk. Mimari iç mekân bilgisi yok ama istasyon çevresinin ayırt edici bir parçası."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/flooring/1851 İngiliz yapımı 23005 numaralı buharlı lokomotif. - panoramio.jpg",
+   "category": "flooring",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "İstasyon ön meydanında, yelpaze desenli parke taş (arnavut kaldırımı) döşeli alanda, beyaz beton sedde üzerinde sergilenen TCDD 3407 buharlı lokomotifi; solda 'Stadyum' yön levhası.",
+   "useful": true,
+   "notes": "Meydanın yelpaze desenli taş döşemesi ve sergi seddesi için en iyi kare."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/architectural_details/1851 İngiliz yapımı 23005 numaralı buharlı lokomotif. - panoramio (cropped).jpg",
+   "category": "architectural_details",
+   "secondary": [
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Aynı lokomotifin yakın planı: TCDD 3407 plakası, kırmızı şasi/tekerlek bandı ve önündeki yıpranmış beyaz beton sedde duvarı ile parke taş zemin.",
+   "useful": true,
+   "notes": "Sedde duvarının dokusu ve yüksekliği için kırpılmış yakın plan."
+  },
+  {
+   "file": "stations/Söğütlüçeşme/completed/architectural_details/Locomotive - panoramio (7).jpg",
+   "category": "architectural_details",
+   "secondary": [
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Aynı sergi lokomotifi uzaktan, büyük bir çınar ağacının altında; geniş yelpaze desenli parke taş meydan ve beyaz beton sedde.",
+   "useful": false,
+   "notes": "Lokomotif çok küçük, ağaç kadrajı domine ediyor; diğer iki lokomotif karesine göre ek bilgi vermiyor."
+  }
+ ],
+ "Yenikapı (Marmaray)": [
+  {
+   "file": "stations/Yenikapı/completed/platforms/American Megatrends BIOS screen on Marmaray Yenikapı Station.jpg",
+   "category": "platforms",
+   "secondary": [
+    "flooring",
+    "signage",
+    "tracks",
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "90 derece dondurulmus cekim: perondan raya dogru bakis. On planda acik gri benekli granit zemin karolari, sari noktali hissedilebilir yuzey seridi ve uzerinde '5 VAGONLU TRENE BINIS ALANI / 5 CAR TRAIN BOARDING AREA' yazan turkuaz Iznik desenli grafik bant; iki yolcu peron kenarinda bekliyor. Arka planda ham koyu beton ray duvarina monte genis yatay bilgi ekrani cokmus halde American Megatrends BIOS ekranini gosteriyor, altinda raylar ve duvar dibindeki kablo hatlari goruluyor.",
+   "useful": true,
+   "notes": "Peron kenari bant kompozisyonu ve zemin karo olceginin en net kaniti; ayrica ray duvarina monte ekranin konum ve oranini veriyor. Ekran icerigi (BIOS) modelleme acisindan onemsiz."
+  },
+  {
+   "file": "stations/Yenikapı/completed/platforms/Marmaray Yenikapi Station 2.jpg",
+   "category": "platforms",
+   "secondary": [
+    "tracks",
+    "tunnels",
+    "ceilings",
+    "walls",
+    "lighting",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "2014 tarihli cekim: peronun tunel agzina bakan ucunda, Kazlicesme yonlu TCDD/AYGM logolu kirmizi-beyaz Marmaray seti (CRA64 / E 32014) duruyor. Solda peron kenari ve sari serit, ustte kaplamasiz koyu beton kutu tavan ile acikta kablo tavalari ve katener askilari, sagda ham beton ray duvarina monte seramik rolyef mural ve onun ustundeki surekli serit armatur goruluyor.",
+   "useful": true,
+   "notes": "Ray/tunel bolgesinin ham beton karakterini, katener tertibatini ve tunel agzindaki egimi gosteren tek fotograf. Mural'in 2014'te de yerinde oldugunu dogruluyor. Tren kendisi mimari degil ancak peron-ray-arac olcek iliskisi icin degerli."
+  },
+  {
+   "file": "stations/Yenikapı/completed/platforms/Yenikapı Marmaray İstasyonu B1 2024.jpg",
+   "category": "platforms",
+   "secondary": [
+    "ceilings",
+    "columns",
+    "walls",
+    "flooring",
+    "signage",
+    "lighting",
+    "tracks",
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Peron boyunca uzanan genis acili bakis: solda ray ve uzerindeki seramik rolyef mural, ortada cilali acik gri benekli granit zemin ve cok bantli peron kenari (beyaz kenar + sari hissedilebilir yuzey + turkuaz desenli grafik bant + turuncu uyari banti), ustte acik lineal metal lamel tavan ile gomulu isikli paneller ve peron kenarindaki surekli isik hatti, sagda sicak bej buyuk formatli seramik karoyla kaplanmis kolon/paye sirasi; en sagdaki payede 'YENIKAPI' istasyon adi panosu, 'SIGARA ICILMEZ' ve acil tren durdurma levhalari, sari '4' isareti ve acil durum butonu kutusu.",
+   "useful": true,
+   "notes": "Paketin en bilgi yogun fotografi: tavan sistemi, kolon kaplamasi, zemin, peron kenari, aydinlatma katmanlari ve tabela ailesinin tamamini tek karede veriyor. Modellemede birincil referans olmali."
+  },
+  {
+   "file": "stations/Yenikapı/completed/architectural_details/Yenikapı Marmaray İstasyonunda bulunan resim.jpg",
+   "category": "architectural_details",
+   "secondary": [
+    "walls",
+    "tracks",
+    "lighting",
+    "ceilings"
+   ],
+   "state": "completed",
+   "subject": "Ray duvarindaki dev seramik rolyef mural'in yakin ve neredeyse tam boy cekimi: amforalar, gemi iskeleti-halat ve dalga dokulari, yesil dalgali su panelleri, turkuaz Iznik tipi desenli cini bloklar, rozet madalyon frizleri, oyma kemer icindeki figur rolyefi, buyuk radyal oyma gul pencere motifi ve aralara gomulu kazi fotograflari. Ustunde esere ozel surekli serit armatur, cevresinde puskurtme dokulu koyu beton duvar, duvar dibinde kelepceli bakir-kahverengi boru hatlari, onunde beton traversli balastli yol ve sagda dusey paslanmis celik inis borusu goruluyor.",
+   "useful": true,
+   "notes": "Istasyonun imza ogesinin ana dokusu/referansi; ayni zamanda ray duvari malzemesi, kablo-boru detayi ve balastli yol yapisi icin en net kanit. Duz karsidan degil hafif acili cekim oldugu icin tam en/boy orani cikarilamiyor."
+  }
+ ],
+ "Üsküdar": [
+  {
+   "file": "stations/Üsküdar/unclear/entrances/MarmarayÜsküdarStation.JPG",
+   "category": "entrances",
+   "secondary": [
+    "signage",
+    "stairs",
+    "architectural_details"
+   ],
+   "state": "unclear",
+   "subject": "Üsküdar Meydan girişinin dış cephesi: yatay yarım silindir (fıçı tonoz) biçiminde, ince dilimli/eklemli bakır-bronz renkli konsol saçak; altında beyaz tabela bandında mavi büyük harflerle MARMARAY ÜSKÜDAR İSTASYONU / ÜSKÜDAR MEYDAN GİRİŞİ yazısı ve Marmaray-TCDD-UDH logoları; granit basamaklar, paslanmaz boru korkuluklar, sarı taktil şeritli meydan döşemesi ve sağda diyagonal yürüyen merdiven kılıfı. Fotoğraf 2014 tarihli; saçağın hemen üzerinde ve sağ arkada vinç kolları, camın arkasında iskele/destek elemanları görülüyor.",
+   "useful": true,
+   "notes": "Giriş yapısı (saçak, tabela, merdiven, korkuluk, granit basamak) bitmiş durumda ama çevrede aktif şantiye (2 vinç + cam arkasında iskele) olduğu için state 'unclear'. Saçak formu bu girişin en ayırt edici öğesi."
+  },
+  {
+   "file": "stations/Üsküdar/completed/signage/Üsküdar Marmaray Batı Konkors şeması.jpg",
+   "category": "signage",
+   "secondary": [
+    "ticket_halls"
+   ],
+   "state": "completed",
+   "subject": "Paslanmaz çerçeveli, beyaz emaye 'ÜSKÜDAR İSTASYONU - Görme Engelli Kat Krokisi' kabartma/braille planı. Batı konkorsun şemasını veriyor: yürüyen merdiven grupları, iki asansör, turnike sıraları, bilet gişesi, danışma, engelli WC ve sarı noktalı yürüme yolu izleri.",
+   "useful": true,
+   "notes": "Harita niteliğinde olmasına rağmen konkors topolojisi (turnike sırası sayısı, asansör/yürüyen merdiven konumları, WC ve gişe yerleşimi) için tek kaynak; ayrıca levhanın kendisi modellenebilir bir istasyon ögesi."
+  },
+  {
+   "file": "stations/Üsküdar/completed/entrances/Üsküdar Railway Station pier gate.IMG 1718.jpg",
+   "category": "entrances",
+   "secondary": [
+    "stairs",
+    "escalators",
+    "architectural_details",
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Vapur İskelesi girişinin yakın plan, 90 derece döndürülmüş çekimi: beyaz tabela bandında mavi harflerle MARMARAY ÜSKÜDAR İSTASYONU / VAPUR İSKELESİ GİRİŞİ, T.C. Ulaştırma Bakanlığı mührü ve TCDD logosu; açık gri taş/alüminyum panel kaplı ince saçak alt yüzü; merdiven boşluğuna bakış, camlı üst örtü kasnağı, paslanmaz boru korkuluklar, kaldırımda sarı taktil bant ve iç duvarda koyu petrol yeşili yüzeye uygulanmış 'MARMARAY' harfleri.",
+   "useful": true,
+   "notes": "Dosya EXIF yönüne göre yan duruyor; gerçekte dikey çekim. Saçak alt yüzü, cam kasnak profilleri ve merdiven boşluğu ağzı için iyi detay."
+  },
+  {
+   "file": "stations/Üsküdar/completed/entrances/Üsküdar Railway Station pier gate.IMG 1719.jpg",
+   "category": "entrances",
+   "secondary": [
+    "signage",
+    "architectural_details",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Vapur İskelesi girişinin tam gövde görünümü: açık gri taş/metal panel kaplı, keskin kenarlı, asimetrik beşik (katlanmış plak) saçak geniş konsol yapıyor; altında mavi-yeşil yansımalı cam giydirme cepheli kutu hacim, bej taş bazament, paslanmaz boru korkuluklu rampa ve kaldırımda geniş sarı taktil/uyarı bantları. Arka planda Üsküdar sahil yapıları.",
+   "useful": true,
+   "notes": "Meydan girişinden tamamen farklı saçak dili: burada tonoz değil, ince düz katlanmış plak. İki girişin ayrı modellenmesi gerektiğini gösteriyor."
+  },
+  {
+   "file": "stations/Üsküdar/completed/platforms/Üsküdar Tren İstasyonu.jpg",
+   "category": "platforms",
+   "secondary": [
+    "columns",
+    "ceilings",
+    "walls",
+    "flooring",
+    "lighting",
+    "signage"
+   ],
+   "state": "completed",
+   "subject": "Peron seviyesinden uzunlamasına bakış: çok geniş ada peron, turkuaz/petrol mavisi parlak seramik karo kaplı kare kesitli kolon dizisi, peron ortasında koyu (siyaha yakın) kaset/ızgara tavan ve içine gömülü kare aydınlatma panelleri, ray kenarında beyaz asma tavan bandı ve sürekli lineer aydınlatma, parlak açık gri terrazzo zemin, sarı taktil peron kenar şeridi, delikli metal banklar ve sağda turkuaz karo duvara monte krem renkli ÜSKÜDAR istasyon adı bandı + Marmaray ağ haritası ve METRO yön paneli.",
+   "useful": true,
+   "notes": "Paketin tek peron fotoğrafı ve en kritik referans: kolon kaplaması, tavan sistemi, zemin, aydınlatma, tabela tipi ve peron mobilyası aynı karede."
+  },
+  {
+   "file": "stations/Üsküdar/completed/signage/Üsküdar yön.jpg",
+   "category": "signage",
+   "secondary": [],
+   "state": "completed",
+   "subject": "Perondaki hat şeması levhası: HALKALI YÖNÜ (mavi) ve GEBZE YÖNÜ (kırmızı) oklarıyla tüm Marmaray durak listesi, aktarma ikonları ve ÜSKÜDAR konumu işaretli; sağ kenarda istasyonun turkuaz karo duvarı ve koyu derz çizgileri görülüyor.",
+   "useful": false,
+   "notes": "İçeriği bir hat haritası olduğu için mimari modelleme değeri düşük; yalnızca levha dokusu ve karo derz aralığı için ikincil fayda."
+  },
+  {
+   "file": "stations/Üsküdar/completed/signage/Üsküdar çıkışları.jpg",
+   "category": "signage",
+   "secondary": [
+    "walls"
+   ],
+   "state": "completed",
+   "subject": "Peron/konkors tabelası: 'ÇIKIŞ / EXIT' başlığı altında 1-4 numaralı çıkışlar, her biri için hedef listesi (Üsküdar Meydan, Deniz Yolları İskelesi, M5 Üsküdar-Ümraniye-Çekmeköy Metrosu, Kız Kulesi, Harem Sahil Yolu vb.), yürüyen merdiven ve asansör piktogramları. Levhanın üstünde ve altında istasyonun büyük boyutlu turkuaz karoları ile aralarındaki siyah bant görülüyor.",
+   "useful": true,
+   "notes": "Çıkış numaralandırması (4 çıkış) ve tabela grafiği birebir doku olarak kullanılabilir; ayrıca karo modülü/derz rengi net okunuyor."
+  }
+ ],
+ "Marmaray Tüneli (Bogaz gecisi - TBM dairesel tunel + batirma tup bolumleri; ayrica Sirkeci istasyonundaki cini pano)": [
+  {
+   "file": "tunnel/completed/walls/Marmaray train passing under the Bosphorus as depicted in tile in Sirkeci Station.jpg",
+   "category": "walls",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "completed",
+   "subject": "Sirkeci istasyonunda duvara islenmis, kare karo gridi uzerine resmedilmis genis cini pano. Ustte altin-sari gokyuzu onunde Istanbul silueti (Sultanahmet, Ayasofya, minareler, kirmizi catili evler), altta mavi-gri bogaz kesiti icinde raylar uzerinde ilerleyen \"Marmaray\" yazili tren goruluyor.",
+   "useful": true,
+   "notes": "Dekoratif ama gercek bir duvar yuzeyi; doku/decal olarak dogrudan modellenebilir. Karo derzleri resmin uzerinden gectigi icin karo gridi olcu referansi veriyor."
+  },
+  {
+   "file": "tunnel/completed/tunnels/Marmaray tüp geçiş tüneli 30112024.jpg",
+   "category": "tunnels",
+   "secondary": [
+    "tracks",
+    "lighting",
+    "walls",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Isletmedeki batirma tup (kutu kesit) tunel icinden boyuna bakis: iki yanda yukseltilmis genis beton yuruyus/tahliye yolu, ortada balastsiz slab track uzerinde ray ve koruma rayi, duvarlarda sik aralikli kablo konsollari, tavandan sarkan katener askı kollari. Sol duvarda beyaz elektrik panolari ve kirmizi acil kutusu; ortam mavi-mor yapay isikla yikanmis.",
+   "useful": true,
+   "notes": "Kutu kesit tunelin TAMAMLANMIS hali icin en iyi referans. Tavanin duz, kenarlarinin pahli oldugu net goruluyor."
+  },
+  {
+   "file": "tunnel/completed/tunnels/Marmaray tüp geçiş tüneli 30112024 2.jpg",
+   "category": "tunnels",
+   "secondary": [
+    "tracks",
+    "signage",
+    "walls",
+    "flooring"
+   ],
+   "state": "completed",
+   "subject": "Isletmedeki TBM dairesel tunel icinden boyuna bakis: prekast beton segment halkalari ve derzleri net, iki yanda yukseltilmis beton yuruyus yolu, ortada kaucuk botlu travers bloklari uzerinde ray + koruma rayi ve boylamasina drenaj kanali. Sagda galvaniz cift direkli, yesil yanan \"KBS4701\" kodlu sinyal ve sari \"DIKKAT ELEKTRIK TEHLIKESI\" levhasi.",
+   "useful": true,
+   "notes": "Dairesel tunelin tamamlanmis hali icin en iyi tek referans. Segment deseni, konsol ritmi ve sinyal direginin tumu okunabilir."
+  },
+  {
+   "file": "tunnel/construction/tunnels/Marmaraytunnel.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "ceilings",
+    "lighting",
+    "tracks"
+   ],
+   "state": "construction",
+   "subject": "TBM ile acilmis dairesel tunelin insaat asamasi: prekast segment halkalari, enjeksiyon delikleri ve montaj cebi izleri cok net; solda beton yuruyus yolu uzerinde duvara gelisiguzel asilmis ciplak floresan tupler ve serbest sarkan kablo demetleri, sagda duz perde duvar onunde boru korkuluk, ortada tek hat ray.",
+   "useful": true,
+   "notes": "Segment halka geometrisi ve ic yuzey dokusu icin en okunakli kare."
+  },
+  {
+   "file": "tunnel/construction/tunnels/Marmaraytunnel2.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "lighting",
+    "ceilings",
+    "tracks",
+    "columns"
+   ],
+   "state": "construction",
+   "subject": "Batirma tup kutu kesitinin insaat asamasi: duz dusey ham beton duvarlar, duz tavan, sag duvar boyunca neredeyse kesintisiz bir isik seridi olusturan yatay floresan armatürler, tavan altinda celik katener portal cercevesi (iki dikme + ust kafes kiris) ve ortada tek hat ray.",
+   "useful": true,
+   "notes": "Kutu kesitin oranlarini ve duvar aydinlatma dizilisini gosteren en acik kare."
+  },
+  {
+   "file": "tunnel/construction/tunnels/Marmaraytunnel4.jpg",
+   "category": "tunnels",
+   "secondary": [
+    "ceilings",
+    "lighting",
+    "walls"
+   ],
+   "state": "construction",
+   "subject": "Dairesel TBM tunelinin insaat asamasi, sag on planda baretli bir isci yuruyus yolu uzerinde ayakta duruyor; ileride turuncu yelekli ikinci bir isci. Segment halkalari, duvar boyunca uzanan boru/kablo demetleri, duvara asili gecici floresanlar ve sag tarafta beyaz brandalar goruluyor.",
+   "useful": true,
+   "notes": "Tunel yuksekligi ve yuruyus yolu genisligi icin insan olcegi veren tek net kare."
+  },
+  {
+   "file": "tunnel/construction/tunnels/Marmaraytunnel5.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "lighting",
+    "ceilings",
+    "tracks"
+   ],
+   "state": "construction",
+   "subject": "Batirma tup kutu kesitinin insaat asamasi, cok karanlik bir kare: solda ham beton duvar ve beton yuruyus yolu, sagda duvar boyunca parlak floresan serisi, ortada celik katener portali ve tek hat ray; tunelin derinliginde isik dizisi bir kacis noktasinda birlesiyor.",
+   "useful": true,
+   "notes": "Pozlama cok dusuk; detay az. Esas olarak boyuna perspektif ve isik ritmi referansi olarak degerli."
+  },
+  {
+   "file": "tunnel/construction/tunnels/Marmarayunderconstruction2.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "walls",
+    "tracks",
+    "lighting"
+   ],
+   "state": "construction",
+   "subject": "Dairesel TBM tunelinin insaat asamasi, iki baretli isci sag yuruyus yolunda yan yana ayakta; sol duvarda kirmizi/siyah hortum ve kablo demetleri, sagda kalin siyah kablo grubu ve beyaz torbalar yigili, ortada tek hat ray ve tabanda hasir donati.",
+   "useful": true,
+   "notes": "Iki isci yan yana durdugu icin yuruyus yolu genisligi orani buradan okunabiliyor. Cozunurluk digerlerinden dusuk (2048 px)."
+  },
+  {
+   "file": "tunnel/construction/signage/Marmarayways.JPG",
+   "category": "signage",
+   "secondary": [],
+   "state": "construction",
+   "subject": "Insaat donemine ait, duvara seffaf bantla yapistirilmis kagit yonlendirme afisi: solda \"Asian Land Side\" ve sag ok ile \"BOSPHORUS Go Downstairs\", altta iki fotograf ve bogaz fotografinda \"GL-23m\" notu.",
+   "useful": false,
+   "notes": "Gecici kagit afis; mimari yuzey veya kalici tabela degil. Yalnizca bilgi degeri var (gecisin zemin kotundan ~23 m asagida oldugu notu). Modellenecek bir oge degil."
+  }
+ ],
+ "İnşaat (Marmaray inşaat dönemi referans fotoğrafları, 2007-2013)": [
+  {
+   "file": "construction/construction/tunnels/Building the first intercontinetal subway - panoramio.jpg",
+   "category": "tunnels",
+   "secondary": [],
+   "state": "construction",
+   "subject": "Boğaz'da, kıyı taşlarının arkasından çekilmiş deniz manzarası; ortada dört bacaklı (jack-up) kaldırma platformu ve vinçli duba, arkada şehir silueti ve 15 Temmuz/Boğaziçi köprüsü. Batırma tüp hattının deniz işleri görülüyor ama hiçbir yapı detayı yok.",
+   "useful": false,
+   "notes": "Uzak deniz/şehir manzarası; modellenebilir mimari yüzey içermiyor. Yalnızca 'deniz üstü şantiye' bağlamı için."
+  },
+  {
+   "file": "construction/construction/signage/Dikkat - panoramio.jpg",
+   "category": "signage",
+   "secondary": [
+    "flooring"
+   ],
+   "state": "construction",
+   "subject": "Pendik'te yağmurlu bir cadde; iki direğe monte sarı zemin-siyah çerçeveli uyarı levhası: iki ünlem üçgeni ve 'DİKKAT / MARMARAY ÇALIŞMASI NEDENİYLE PENDİK ALTGEÇİDİ 5 AY SÜRE İLE KAPALIDIR.' yazısı. Arkada dükkânlar, beton parke kaplama cadde.",
+   "useful": true,
+   "notes": "İstasyon mimarisi yok; yalnızca inşaat dönemi sokak uyarı levhası propu ve kırık taş desenli beton parke dokusu için kullanılabilir."
+  },
+  {
+   "file": "construction/unclear/signage/Istanbul Bosphorus IMG 8540 1935.jpg",
+   "category": "signage",
+   "secondary": [],
+   "state": "unclear",
+   "subject": "Denizden çekilmiş Haydarpaşa/Kadıköy kıyı panoraması; TMO silolarının üzerinde 'HAYALDİ GERÇEK OLDU' yazılı dev Marmaray açılış afişi, önde su yüzeyinde seyreden bir denizaltı, arkada gökdelenler ve cami minareleri.",
+   "useful": false,
+   "notes": "İstasyon ya da tünel yapısı görünmüyor. Tarih (24.11.2013) açılış sonrası ama fotoğrafta tamamlanmış istasyon olmadığı için durum belirsiz. Yalnızca afiş/kampanya grafiği referansı."
+  },
+  {
+   "file": "construction/construction/tunnels/Marmaray Soğutluçeşme inşaatı - panoramio - Allen Turner.jpg",
+   "category": "tunnels",
+   "secondary": [
+    "walls",
+    "tracks",
+    "architectural_details"
+   ],
+   "state": "construction",
+   "subject": "Yukarıdan bakışla, beton istinat duvarlarıyla çevrili derin bir portal çukuru: iki kemerli tünel ağzı (biri büyük, kemer kenarı radyal segment/tuğla benzeri halka ile çerçeveli, diğeri daha küçük), büyükten sarı esnek havalandırma kanalı çıkıyor. Çelik ayaklı beyaz korkuluklu gantri platformları üstünde silindirik beyaz fanlar, çukur tabanında ray, trafik konileri, istiflenmiş çelik tünel kaburgaları.",
+   "useful": true,
+   "notes": "Portal geometrisi, ankraj plakalı ham beton duvar dokusu ve şantiye ekipman yerleşimi için çok değerli."
+  },
+  {
+   "file": "construction/construction/tunnels/Marmaray Soğutluçeşme inşaatı - panoramio.jpg",
+   "category": "tunnels",
+   "secondary": [
+    "walls",
+    "tracks"
+   ],
+   "state": "construction",
+   "subject": "Tepe Nautilus AVM'nin yanından geçen açık kazı (cut-and-cover) güzergâhı; tel örgünün ardında iki yanda ankraj plakalı yüksek diyafram/istinat duvarları, güzergâh boyunca sarı ve mavi portal vinçler, şantiye dekovil rayları, konteyner, prefabrik şantiye ofisleri ve istiflenmiş boru/çelik malzeme.",
+   "useful": true,
+   "notes": "Açık kazı kutusunun en-boy oranı, ankrajlı duvar yüzeyi ve portal vinç düzeni için iyi referans."
+  },
+  {
+   "file": "construction/construction/walls/Marmaray Yenikapı inşaatı - panoramio.jpg",
+   "category": "walls",
+   "secondary": [
+    "flooring"
+   ],
+   "state": "construction",
+   "subject": "Yenikapı'daki dev kazı alanı: önde sarı boru korkuluk, ortada arkeolojik kazı yüzeyi (yüzlerce karbonlaşmış ahşap kazık, kum torbasından istinat sıraları, beyaz örtü çadırları), arkada basamaklı/teraslı ankraj plakalı beton şoring duvarları ve üstünde şehir dokusu; sarı-turuncu yelekli işçiler ve el arabaları.",
+   "useful": true,
+   "notes": "İstasyon iç mimarisi yok; kazı kutusunun teraslı duvar geometrisi ve arkeolojik saha bağlamı için."
+  },
+  {
+   "file": "construction/construction/platforms/MarmarayUskudarStationunderconstruction.JPG",
+   "category": "platforms",
+   "secondary": [
+    "columns",
+    "lighting",
+    "ceilings",
+    "walls"
+   ],
+   "state": "construction",
+   "subject": "Üsküdar istasyonunun yer altı kat koridoru: solda iskele çerçeveleriyle kaplı ham beton yan duvar, tavandan asılı uzun sürekli çelik profil/kanal, sağda dev dikdörtgen betonarme kolon dizisi ve her kolon yüzünde düşey monte ikiz tüplü lineer armatür; tavan düzenli akslarda derin sarkık kirişlerle bölünmüş. Turuncu yelekli, baretli işçi grubu ham beton zeminde yürüyor.",
+   "useful": true,
+   "notes": "Paketin en bilgilendirici istasyon içi fotoğraflarından biri: kolon-kiriş ritmi ve düşey armatür düzeni net."
+  },
+  {
+   "file": "construction/construction/walls/Marmarayscrew.JPG",
+   "category": "walls",
+   "secondary": [
+    "architectural_details"
+   ],
+   "state": "construction",
+   "subject": "Ham beton duvarın yakın planı: ortada huni/koni biçimli oyulmuş bir yuva (Commons açıklamasına göre 30 cm'lik vida/ankraj deliği), yanında küçük gergi çubuğu delikleri; sağda düşey bir derzle ayrılmış komşu panelde yoğun su sızıntısı ve kireçlenme (efloresans) izleri, altta turuncu kablo.",
+   "useful": true,
+   "notes": "Doku/normal map üretimi için birebir kullanılabilir: kalıp izi, tij deliği, koni yuva, sızıntı lekesi."
+  },
+  {
+   "file": "construction/construction/stairs/Marmaraystairs.JPG",
+   "category": "stairs",
+   "secondary": [
+    "columns",
+    "platforms",
+    "tracks",
+    "ceilings"
+   ],
+   "state": "construction",
+   "subject": "Derin istasyon kutusuna üst kattan bakış: birden fazla kat, çok iri dikdörtgen betonarme kolonlar ve derin kirişler; ortada ahşap kalıp üzerinde dökülmüş geniş tek merdiven kolu yukarı çıkıyor, yanında seyyar iskele. Sol altta alt kattaki ray görünüyor; önde mavi boyalı geçici çelik korkuluklar, yerde istiflenmiş kalıp kerestesi ve turuncu yelekli işçiler.",
+   "useful": true,
+   "notes": "İstasyonun kesit/kat kurgusunu (ray katı + ara kat + üst kat, merdiven yarığı) gösteren tek fotoğraf."
+  },
+  {
+   "file": "construction/construction/tracks/Marmaraystation.JPG",
+   "category": "tracks",
+   "secondary": [
+    "walls",
+    "ceilings",
+    "lighting",
+    "signage"
+   ],
+   "state": "construction",
+   "subject": "İstasyon kutusunun ray seviyesi, dikey çerçeveli perspektif: solda düşey kalıp derzli yüksek ham beton duvar ve duvara düşey monte lineer armatürler düzenli aralıklarla; tavan derin sarkık enine kirişlerle bölünmüş; yerde donatı hasırı üzerine serilmiş, henüz betona gömülmemiş çift bloklu traversli ray. Duvarda sarı 'DİKKAT ÇALIŞMA VAR' levhası, ileride iskele ve karanlık tünel ağzı.",
+   "useful": true,
+   "notes": "Tavan kirişi aksı, duvar armatür ritmi ve balastsız ray detayı aynı karede; modelleme için çok verimli."
+  },
+  {
+   "file": "construction/construction/tunnels/MarmaraytunelTBM.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "lighting",
+    "tracks",
+    "walls"
+   ],
+   "state": "construction",
+   "subject": "TBM ile açılmış dairesel tünelin içi: prekast segmantal halka kaplaması (bulonlu segmanlar, enjeksiyon/kaldırma delikleri, konik erektör yuvaları), duvara düşey monte lineer armatürler düzenli aralıkla, solda ray seviyesinde beyaz boyalı kenar şeritli yükseltilmiş tahliye yürüme yolu, duvarda kablo askıları ve gri elektrik panosu; önde 'ZİYARETÇİ / VISITOR' yelekli bir kişi.",
+   "useful": true,
+   "notes": "Delme tünel kesitinin en net referansı: halka derzleri, yürüme yolu profili, armatür yerleşimi."
+  },
+  {
+   "file": "construction/construction/tunnels/Marmaraytunnel3.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "tracks",
+    "lighting",
+    "architectural_details"
+   ],
+   "state": "construction",
+   "subject": "Segmantal kaplamalı delme tünelde, kaplama üzerine elle yazılmış halka numaraları ve eksen işaretleri ('1157..', 'T2-B1' gibi) okunuyor; ortada oluklu sacla örtülü asma çalışma platformu/gantri ve çelik iskele, solda beton yürüme yolu ve kablo demetleri, yerde çift bloklu traversli ray. Sıcak sarı aydınlatma; sağda baretli ziyaretçiler.",
+   "useful": true,
+   "notes": "Halka işaretlemeleri ve konik segman yuvaları doku detayı olarak değerli."
+  },
+  {
+   "file": "construction/construction/tunnels/Marmaraytwotunnel.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "tracks",
+    "walls",
+    "architectural_details"
+   ],
+   "state": "construction",
+   "subject": "Delme tünel içinde, ray üzerinde duran kalabalık ziyaretçi grubu (turuncu baret ve 'ZİYAFETÇİ/VISITOR' yelek). Solda yükseltilmiş beton yürüme yolu üstüne istiflenmiş onlarca enjeksiyon/çimento torbası, sağda duvar konsollarına döşenmiş kalın kablo ve boru hatları, kaplamada bulon cepleri; ileride aydınlatılmış, kesiti farklı bir bölüme geçiş ve asma platform.",
+   "useful": true,
+   "notes": "İnsan ölçeği ile tünel çapı ilişkisini veren en iyi kare; ayrıca yürüme yolu yüksekliği okunuyor."
+  },
+  {
+   "file": "construction/construction/platforms/Marmarayunderconstruction.jpg",
+   "category": "platforms",
+   "secondary": [
+    "columns",
+    "lighting",
+    "ceilings",
+    "tracks",
+    "walls"
+   ],
+   "state": "construction",
+   "subject": "İstasyon kutusunun uzun perspektifi: solda iskele çerçeveli ham beton yan duvar ve duvara düşey monte lineer armatürler sıra hâlinde; tavanda düzenli akslarda derin sarkık enine kirişler ve asılı uzun çelik profil; sağda dikdörtgen kolon dizisi, her kolonda ikiz düşey armatür ve arkada ikinci bir açıklık; yerde donatı hasırı üzerinde çift bloklu traversli ray, ıslak ham beton zemin.",
+   "useful": true,
+   "notes": "Paketin en verimli tek karesi: duvar, kolon, kiriş, armatür ve ray aynı anda ve ölçülebilir ritimde."
+  },
+  {
+   "file": "construction/construction/tunnels/Marmarayvehicle.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "lighting",
+    "tracks"
+   ],
+   "state": "construction",
+   "subject": "Çok loş delme tünelde lastik tekerlekli sarı iş makinesi/servis aracı farları yanmış hâlde yaklaşıyor; segmantal kaplamada konik yuvalar ve bulon cepleri, duvarda tek bir düşey lineer armatür, kablo askıları, solda yükseltilmiş yürüme yolu. Sağda baretli izleyiciler.",
+   "useful": true,
+   "notes": "Karanlık olduğu için doku değeri düşük; esas olarak tünel içi araç/ölçek bağlamı için."
+  },
+  {
+   "file": "construction/construction/tunnels/Marmarayvehicle2.JPG",
+   "category": "tunnels",
+   "secondary": [
+    "tracks",
+    "architectural_details"
+   ],
+   "state": "construction",
+   "subject": "Delme tünelde sarı boyalı, kafes kirişli ray döşeme gantri makinesi ('yapıray' etiketli kumanda panosu, kırmızı-beyaz uyarı levhası, turuncu tepe lambası). Arkada segmantal kaplamanın şaşırtmalı boyuna derzleri, bulon cepleri ve halka çizgileri çok net; solda korkuluk direkli yürüme yolu, sağda beyaz şeritli yürüme yolu kenarı.",
+   "useful": true,
+   "notes": "Segmantal kaplama dizilişinin (şaşırtmalı derz) en okunaklı referansı."
+  },
+  {
+   "file": "construction/construction/tracks/RailworkMarmaray.JPG",
+   "category": "tracks",
+   "secondary": [
+    "tunnels",
+    "lighting",
+    "ceilings"
+   ],
+   "state": "construction",
+   "subject": "Dikdörtgen kesitli (aç-kapa) tünelde kaçış noktasına kadar uzanan perspektif: tavan düz, nervürlü/ince kirişli beton plak; sağ duvarda düzenli aralıklı düşey lineer armatürler ve aralarında sarkık kablo kangalları, sağda yükseltilmiş servis yolu; solda üstten elektrifikasyon için çelik portal/direk yapısı ve yürüme yolu; ortada donatı hasırı üstünde çift bloklu traversli, henüz betonlanmamış ray. Önde baretli işçi silueti.",
+   "useful": true,
+   "notes": "Dikdörtgen tünel kesiti + katener portalı + armatür ritmi birlikte görülüyor; metro değil ana hat demiryolu karakterini kanıtlıyor."
+  },
+  {
+   "file": "construction/construction/tunnels/Ray-Tüp - panoramio.jpg",
+   "category": "tunnels",
+   "secondary": [],
+   "state": "construction",
+   "subject": "Boğaz'da tekneden çekilmiş geniş deniz manzarası; ortada mavi kafes bomlu kaldırma platformu ve kırmızı ayaklı ikinci bir duba, arkada kıyı yerleşimi ve köprü. Batırma tüp yerleştirme işlerinin uzaktan görüntüsü.",
+   "useful": false,
+   "notes": "Uzak deniz manzarası; mimari yüzey/detay yok."
+  },
+  {
+   "file": "construction/construction/tunnels/Twodifferenttube.jpg",
+   "category": "tunnels",
+   "secondary": [
+    "tracks",
+    "ceilings",
+    "lighting",
+    "architectural_details"
+   ],
+   "state": "construction",
+   "subject": "Batırma tüp ile TBM delme tünelin birleşme noktası: önde dikdörtgen kesitli, ahşap kalıp izli, düz tavanlı batırma tüp bölümü (tavanda asılı lineer armatür ve iki projektör), arkada kesit daralarak dairesel delme tünele geçiyor; sağ üstte fotoğrafa eklenmiş siyah dikdörtgen ve '1 2' etiketleri geçişi işaretliyor. Rayda çift bloklu traversler ve sarı ölçüm/ayar mastarı; etrafta turuncu yelekli ziyaretçi grubu.",
+   "useful": true,
+   "notes": "Marmaray'ı jenerik metrodan ayıran en kritik tek kare: iki farklı tünel teknolojisinin aynı eksende birleşimi."
+  }
+ ]
+}

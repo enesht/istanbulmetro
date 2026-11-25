@@ -1,3 +1,25 @@
 *.rbxl
 *.rbxlx
 *.lock
+
+# Referans medyasi git'e girmesin (1,4 GB). Envanter/analiz markdown'lari ve
+# _manifest.json (atif bilgisi dahil) izlenir; ikili dosyalar izlenmez.
+refs/**/*.jpg
+refs/**/*.jpeg
+refs/**/*.png
+refs/**/*.webm
+refs/**/*.ogg
+refs/**/*.svg
+refs/docs/*.pdf
+
+# Blender calisma dosyalari ve render ciktilari. .blend dosyalari ve PNG
+# render'lar git'e girmez; modelleme scriptleri (.py) izlenir.
+blender/**/*.blend
+blender/**/*.blend[0-9]*
+blender/**/*.png
+blender/**/__pycache__/
+blender/export/
+Claude outputs/
+
+# Studio yerel place dosyalari (*.rbxl zaten yukarida ignore'da)
+place/
