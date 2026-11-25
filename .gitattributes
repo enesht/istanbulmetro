@@ -1,0 +1,10 @@
+# Kaynak dosyalar her zaman LF ile checkout edilsin.
+# Windows'ta core.autocrlf=true, bu olmadan .lua dosyalari CRLF'e cevrilir ve
+# bayt sayilari degisir (MarmarayData.lua 122085 -> 123113).
+* text=auto eol=lf
+
+*.png  binary
+*.rbxl  binary
+*.rbxlx binary
+*.rbxm  binary
+*.rbxmx binary
