@@ -62,7 +62,7 @@ def build():
          -1.05, PLATFORM_TOP - 0.02, c_struct, M["concrete_pale"])
     # Zemin kaplamasi (cilali granit) - ayri ince katman, malzeme farkli
     floor = slab("YK_FloorFinish", PLAT_X0, PLAT_X1, PLAT_Y0, PLAT_Y1,
-                 PLATFORM_TOP - 0.02, PLATFORM_TOP, c_floor, M["floor_granite"])
+                 PLATFORM_TOP - 0.02, PLATFORM_TOP, c_floor, M["floor_tiled"])
     # PV: cilali yuzey - karo derzi icin ince izgara (kalite: gercek geometri)
     _floor_grid(floor, c_floor, M)
 
@@ -82,9 +82,12 @@ def build():
     # ------------------------------------------------------------ kolonlar
     n_col = int((PLAT_Y1 - PLAT_Y0) / COL_PITCH)
     col0_y = PLAT_Y0 + (PLAT_Y1 - PLAT_Y0 - (n_col - 1) * COL_PITCH) / 2
+    # REFERANS: kolonlar belirgin derzli buyuk format karo. Kameraya en yakin
+    # oge oldugu icin derz GERCEK GEOMETRI (prosedurel bump yetmiyor).
+    # Yakin plandaki ilk/orta kolonlar geometrik, uzaktakiler prosedurel.
     pier = slab("YK_Column", PLAT_MID - COL_W / 2, PLAT_MID + COL_W / 2,
                 col0_y - COL_D / 2, col0_y + COL_D / 2,
-                PLATFORM_TOP, CEIL_Z, c_struct, M["tile_beige"])
+                PLATFORM_TOP, CEIL_Z, c_struct, M["wall_tiled"])
     array_y(pier, n_col, COL_PITCH)
     bevel(pier, 0.012, 2)
     # PV: kolon dibinde koyu su basman bandi
@@ -101,23 +104,26 @@ def build():
     # Yol 2 duvari
     slab("YK_WallTrack2", TRACK2_X + 2.40, TRACK2_X + 2.60, PLAT_Y0, PLAT_Y1,
          -0.60, WALL_TOP, c_wall, M["concrete_raw"])
-    # PV: peron tarafi karo kaplama - kolon sirasinin arkasindaki dolasim duvari
-    #     yok; bunun yerine karo dili kolonlarda ve kenar kirisinde okunuyor.
-    #     Kenar kirisi: tavan ile peron kenari arasinda sarkan kiris.
-    for tag, xa, xb in (("1", PLAT_X0, PLAT_X0 + 0.35),
-                        ("2", PLAT_X1 - 0.35, PLAT_X1)):
-        slab(f"YK_EdgeBeam{tag}", xa, xb, PLAT_Y0, PLAT_Y1,
-             CEIL_Z - 0.75, CEIL_Z, c_ceil, M["tile_beige"])
-        # PV: kirisin yuzunde kesintisiz lineer isik hatti
-        kit.strip_light(c_ceil, M, xa + 0.04, xb - 0.04, PLAT_Y0, PLAT_Y1,
-                        CEIL_Z - 0.78, prefix=f"YK_EdgeStrip{tag}")
+    # REFERANS: ray tarafinda tavan lamelleri ile ray duvari arasinda GENIS DUZ
+    # alinlik (fascia) bandi; serit armatur onun ALT kenarina monte. Fotografta
+    # tavanin en belirgin ikinci ogesi - once dar bir "kenar kirisi" yapmistim,
+    # gercekte cok daha genis ve duz bir panel.
+    kit.fascia_band(c_ceil, M, PLAT_X0 + 0.55, PLAT_X0 + 0.95,
+                    PLAT_Y0, PLAT_Y1, CEIL_Z, height=1.15,
+                    mat=M["fascia_grey"], prefix="YK_Fascia1")
+    # karsi yol tarafinda daha dar bir alinlik
+    kit.fascia_band(c_ceil, M, PLAT_X1 - 0.35, PLAT_X1, PLAT_Y0, PLAT_Y1,
+                    CEIL_Z, height=0.80, mat=M["fascia_grey"], prefix="YK_Fascia2")
 
     # ------------------------------------------------------------ tavan
+    # REFERANS (B1 2024): genis duz lamel bicaklari, ARALIK lamelden buyuk;
+    # aralardan derin servis boslugu ve icindeki tavalar/kanallar gorunuyor.
     ceil = kit.baffle_ceiling(c_ceil, M,
-                              PLAT_X0 + 0.35, PLAT_X1 - 0.35,
+                              PLAT_X0 + 0.95, PLAT_X1 - 0.35,
                               PLAT_Y0, PLAT_Y1, CEIL_Z,
-                              baffle_w=0.10, gap=0.10, depth=0.15,
-                              panel_every=9, prefix="YK_Ceil")
+                              baffle_w=0.18, gap=0.26, depth=0.16,
+                              panel_every=24, prefix="YK_Ceil",
+                              plenum_depth=1.05, services=True)
     # PV: ray ustu tavan kaplamasiz koyu beton kutu + acikta kablo tavalari
     for tag, xc in (("1", TRACK1_X), ("2", TRACK2_X)):
         slab(f"YK_TrackSoffit{tag}", xc - 2.40, xc + 2.40, PLAT_Y0, PLAT_Y1,
@@ -128,8 +134,14 @@ def build():
     # ------------------------------------------------------------ mural
     # PV: ray duvarinda dev yatay seramik rolyef pano + ustunde serit armatur
     my0, my1 = -MURAL_LEN / 2, MURAL_LEN / 2
+    # REFERANS: mural BAKIR/TERRAKOTA tonlu, cevresinde koyu cerceve.
+    # Ilk surumde turkuaz yapmistim - turkuaz olan yalnizca peron kenarindaki
+    # grafik bant; mural sicak bakir.
+    slab("YK_MuralFrame", TRACK1_X - 2.41, TRACK1_X - 2.33,
+         my0 - 0.16, my1 + 0.16, MURAL_Z0 - 0.16, MURAL_Z1 + 0.16,
+         c_art, M["mural_frame"])
     mural = slab("YK_Mural", TRACK1_X - 2.40, TRACK1_X - 2.34, my0, my1,
-                 MURAL_Z0, MURAL_Z1, c_art, M["band_turquoise"])
+                 MURAL_Z0, MURAL_Z1, c_art, M["mural_copper_dk"])
     _mural_relief(mural, c_art, M, my0, my1)
     kit.strip_light(c_art, M, TRACK1_X - 2.42, TRACK1_X - 2.20, my0, my1,
                     MURAL_Z1 + 0.18, prefix="YK_MuralStrip")
@@ -213,14 +225,21 @@ def _mural_relief(mural_obj, col, M, y0, y1):
     xf = -2.34                     # mural on yuzu
     span = y1 - y0
     TM = 0.45                      # AS: seramik karo modulu
+    # REFERANS: eserin tamami BAKIR/TERRAKOTA ailesinde; derinlik farki renkle
+    # degil ISIK-GOLGE ile okunuyor. Bu yuzden palet dar tutuldu, rolyef
+    # derinlikleri degistirildi.
     mats = {
-        "terracotta": material("MAT_Mural_Terracotta", (0.33, 0.12, 0.055), roughness=0.62),
-        "iznik": material("MAT_Mural_IznikTurquoise", (0.05, 0.36, 0.39), roughness=0.26),
-        "iznik_dk": material("MAT_Mural_IznikDeep", (0.02, 0.17, 0.26), roughness=0.26),
-        "water": material("MAT_Mural_WaterGreen", (0.05, 0.26, 0.17), roughness=0.30),
-        "stone": material("MAT_Mural_CarvedStone", (0.46, 0.42, 0.34), roughness=0.70),
-        "rope": material("MAT_Mural_Rope", (0.30, 0.22, 0.11), roughness=0.80),
-        "photo": material("MAT_Mural_ExcavPhoto", (0.14, 0.13, 0.12), roughness=0.35),
+        "terracotta": M["mural_copper"],
+        "iznik": material("MAT_Mural_CopperMid", (0.28, 0.115, 0.045), roughness=0.55,
+                          metallic=0.15),
+        "iznik_dk": M["mural_copper_dk"],
+        "water": material("MAT_Mural_CopperPatina", (0.22, 0.135, 0.070), roughness=0.62,
+                          metallic=0.10),
+        "stone": material("MAT_Mural_CopperLight", (0.44, 0.215, 0.090), roughness=0.46,
+                          metallic=0.22),
+        "rope": material("MAT_Mural_CopperRope", (0.25, 0.105, 0.040), roughness=0.70,
+                         metallic=0.08),
+        "photo": material("MAT_Mural_ExcavPhoto", (0.10, 0.055, 0.030), roughness=0.40),
     }
     sub = collection("YK_MuralRelief", col)
 

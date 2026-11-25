@@ -1,6 +1,6 @@
 """Rev 6 driver. Run inside Blender with cab_car_master.blend open:
-    import sys, importlib, os
-    p = os.path.join(os.path.expanduser("~"), "Downloads", "marmaray_roblox_paket", "blender", "hq", "rev6")
+    import sys, importlib, os, bpy
+    p = os.path.join(os.path.dirname(bpy.data.filepath), "rev6")   # master .blend'in yanindaki rev6 klasoru
     sys.path.insert(0, p); import rev6_main; importlib.reload(rev6_main); rev6_main.run(["geometry", "lamps", "paint"])
 Steps: geometry, lamps, paint, atlas, controls, export (see README_REV6.md)."""
 import importlib, time

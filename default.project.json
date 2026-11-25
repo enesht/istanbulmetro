@@ -15,6 +15,12 @@
     "ServerStorage": {
       "BuildMarmaray": {
         "$path": "src/server/BuildMarmaray.lua"
+      },
+      "MarmarayStations": {
+        "$path": "src/server/stations"
+      },
+      "MarmarayScenes": {
+        "$path": "src/server/scenes"
       }
     },
 

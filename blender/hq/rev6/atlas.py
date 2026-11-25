@@ -90,6 +90,9 @@ def _bake(objs, uv_name, img, kind, clear=True):
                 if l.to_socket == b.inputs["Emission Color"]: nt.links.remove(l)
             b.inputs["Emission Color"].default_value = (0, 0, 0, 1)
     img.save()
+    if img.packed_file: img.pack()   # .blend icindeki paketli kopyayi PNG ile esitle
+    try: img.filepath_raw = bpy.path.relpath(img.filepath_raw)   # tasinabilir (//textures/...)
+    except ValueError: pass
     return img.filepath_raw
 
 def use_procedural(objs, atlas_mat):

@@ -5,7 +5,19 @@ Stages are controlled by STAGES set at bottom (shell, glazing, doors, scene, ren
 import bpy, bmesh, math, os, sys, importlib
 from mathutils import Vector
 
-HQ = os.path.join(os.path.expanduser("~"), "Downloads", "marmaray_roblox_paket", "blender", "hq")
+def _find_hq():
+    """blender/hq folder: MARMARAY_HQ env var, this script's folder, the open .blend's folder, or the legacy path."""
+    cands = [os.environ.get("MARMARAY_HQ")]
+    try: cands.append(os.path.dirname(os.path.abspath(__file__)))
+    except NameError: pass
+    if bpy.data.filepath: cands.append(os.path.dirname(bpy.data.filepath))
+    cands.append(os.path.join(os.path.expanduser("~"), "Downloads", "marmaray_roblox_paket", "blender", "hq"))
+    for c in cands:
+        if c and os.path.isfile(os.path.join(c, "geom.py")):
+            return c
+    raise RuntimeError("blender/hq klasoru bulunamadi - MARMARAY_HQ ortam degiskenini ayarlayin")
+
+HQ = _find_hq()
 if HQ not in sys.path: sys.path.insert(0, HQ)
 import geom; importlib.reload(geom)
 G = geom

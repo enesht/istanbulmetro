@@ -3,7 +3,18 @@ import bpy, bmesh, math, os, sys
 from mathutils import Vector, Matrix
 from mathutils.bvhtree import BVHTree
 
-HQ = os.path.join(os.path.expanduser("~"), "Downloads", "marmaray_roblox_paket", "blender", "hq")
+def _find_hq():
+    """blender/hq folder: MARMARAY_HQ env var, else the parent of this rev6 folder (portable)."""
+    cands = [os.environ.get("MARMARAY_HQ"),
+             os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+             os.path.join(os.path.expanduser("~"), "Downloads", "marmaray_roblox_paket", "blender", "hq")]
+    for c in cands:
+        if c and os.path.isfile(os.path.join(c, "geom.py")):
+            return c
+    raise RuntimeError("blender/hq klasoru bulunamadi - MARMARAY_HQ ortam degiskenini ayarlayin")
+
+
+HQ = _find_hq()
 if HQ not in sys.path: sys.path.insert(0, HQ)
 import geom as G  # noqa: E402  (dimensions, profile, nose maths)
 

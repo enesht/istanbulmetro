@@ -41,3 +41,13 @@ Claude outputs/
 
 # Studio yerel place dosyalari (*.rbxl zaten yukarida ignore'da)
 place/
+
+# Anons klipleri: ucuncu sahsin kaydindan kesildi (telifli). Depo herkese acik
+# olabilecegi icin yeniden dagitimdan kacinmak adina izlenmiyor. Kaynak kayit ve
+# kesme parametreleri audio/announcements/_index.json'da; klipler yerelde kalir.
+audio/
+.codex/
+
+# Ucuncu sahis teknik dokumanlari (uretici/idare cizimleri). Yerelde kalir,
+# herkese acik depoya konmaz. Istersen bu satiri kaldir.
+blender/hq/docs/

@@ -1,7 +1,7 @@
 # Marmaray banliyö baş vagonu – Rev 6 (düzenlenebilir altyapı)
 
 Bu belge Rev 6'da kurulan dosya düzenini, obje isimlerini, parametreleri ve düzenleme akışlarını anlatır.
-Tüm yollar `C:\Users\enesd\Downloads\marmaray_roblox_paket\blender\hq\` klasörüne göredir.
+Tüm yollar `blender/hq/` klasörüne göredir (proje kökü nerede olursa olsun; ilk kurulum `C:\Users\enesd\Downloads\marmaray_roblox_paket\` idi).
 
 > Ön yüz ve renk düzeni özgün tasarımdır. Ölçüler teknik dokümandan alınmıştır. Görsel tasarım değişikliklerini aşağıdaki
 > parametreler, Bézier kaynak eğrileri ve PNG atlaslar üzerinden kendiniz yapabilirsiniz.
@@ -31,14 +31,18 @@ Tüm yollar `C:\Users\enesd\Downloads\marmaray_roblox_paket\blender\hq\` klasör
 | `export_roblox/textures/*_1024.png` | Roblox için küçültülmüş atlaslar. |
 | `renders/rev6_*.png` | Kontrol renderları. |
 | `geom.py` | Gövde ölçüleri, profil, burun matematiği, ön cam ve maske şekilleri (Rev 1–6 ortak). |
+| `build_hq.py`, `details.py` … `details4.py` | Rev 1–5 temel kurulum scriptleri (iç mekân, bojiler, çatı, kapılar); Rev 6 modülleri bunların ürettiği sahnenin üzerine çalışır. |
+| `docs/837714268-_c-D__-Techizat-Genel-D__-Tasar_m-1.pdf` | Ölçülerin alındığı teknik doküman (TCDD E32000 donanım/genel tasarım). `docs/teknik_dokuman_sayfa_goruntusu_*.png`: kullanılan sayfanın görüntüsü. |
+| `references/gercek_dis`, `gercek_ic`, `gercek_boji` | Gerçek araç referans fotoğrafları (dış görünüş, iç mekân, boji). |
+| `references/roblox` | Roblox referans ekran görüntüleri. |
 
 ---
 
 ## 2. Scriptleri çalıştırma (Blender 5.2, master dosya açıkken – Scripting sekmesi)
 
 ```python
-import sys, os, importlib
-p = os.path.join(os.path.expanduser("~"), "Downloads", "marmaray_roblox_paket", "blender", "hq", "rev6")
+import sys, os, importlib, bpy
+p = os.path.join(os.path.dirname(bpy.data.filepath), "rev6")   # açık master .blend'in yanındaki rev6/
 if p not in sys.path: sys.path.insert(0, p)
 import rev6_main; importlib.reload(rev6_main)
 
@@ -166,6 +170,8 @@ Driver'lar özellik değiştiğinde güncellenir (gerekirse zaman çizelgesinde 
 - **Kabin yerleşimi:** alt bant = burun yuvarlatma halkası (yatay = profil çevresi, dikey = yuvarlatma boyunca mesafe). Üstte ön yüz (önden düzlemsel izdüşüm).
 - **Boyama akışı:** SVG'yi (`UV_*_4096.svg`) PNG'nin üstüne katman olarak açın, `T_*_BaseColor_4096.png` dosyasını boyayın,
   metal bölgeleri `T_*_Metallic` dosyasında beyaz/siyah, pürüzlülüğü `T_*_Roughness` dosyasında güncelleyin → Blender'da Image Editor → *Image ▸ Reload* (veya dosyayı yeniden açın).
+  **Not:** Atlaslar taşınabilirlik için `.blend` içine paketlidir (bkz. bölüm 8). PNG'leri dışarıda düzenlemeden önce
+  *File ▸ External Data ▸ Unpack Resources ▸ Use files in current directory* seçin; aksi halde *Reload* paketli kopyayı okur.
 - **Prosedürel kaynak:** `PBR_Livery_Procedural` (fake user). `livery.LIV` sözlüğü: `NAVY (1.20, 1.02, 42, 60)`, `RED_LOW (1.68, 1.80, 56)`, `CANT (3.20, 3.26, 10.12)`, `BAND (1.86, 3.06, 66)`, `ROOF_Z 3.30`, palet `livery.PAL`.
   Değiştirip `atlas.rebake()` çalıştırırsanız PNG'lerin üzerine yazılır (elle boyadıklarınızı önce yedekleyin).
 
@@ -192,3 +198,14 @@ Driver'lar özellik değiştiğinde güncellenir (gerekirse zaman çizelgesinde 
 - Klima bölümündeki alçak çatı, tavan omzunda yumuşak bir dönüşle (geom `ZKNEE 3.40 → ZFLAT 3.50`) iner; kabin rampası 8.86 → 9.62 m boyunca S-eğrisidir (`WELL_RAMP_FRONT 0.76`).
 - Boya panelleri ve far yuvaları canlı modifier değil, kaynaklardan **yeniden üretilen** meshlerdir (yüksek kaliteli, yüzeyi takip eden üçgenleme için). Varış metni ve paneli canlıdır (Geometry Nodes).
 - Sağ taraf farlar ve boya panelleri her zaman sol taraftan aynalanır; sağ tarafı elle düzenlemeyin.
+
+---
+
+## 8. Taşınabilirlik (Rev 6 kaynak paketi)
+
+- **Dokular paketli:** `cab_car_master.blend` içindeki 6 adet 4096 atlas (`T_Body_*`, `T_Cab_*`) *Pack Resources* ile dosyaya gömülüdür; yolları göreli (`//textures/…`). Dosya başka bir bilgisayarda açıldığında eksik doku olmaz.
+- **Kütüphane bağlantısı kaldırıldı:** "Smooth by Angle" node grubu önceden Blender kurulumundaki `geometry_nodes_essentials.blend` dosyasına bağlıydı (mutlak `Program Files` yolu). Artık dosyanın içinde yereldir; harici `.blend` bağlantısı yoktur.
+- **Render çıkış yolları göreli:** `//renders/…`. `cab_car_master_rev5_yedek.blend` tamamen prosedüreldir (harici doku/bağlantı yok).
+- **Script yolları:** `rev6/common.py` ve `build_hq.py`, `blender/hq` klasörünü otomatik bulur (sıra: `MARMARAY_HQ` ortam değişkeni → scriptin kendi klasörü → açık `.blend` klasörü → eski `Downloads` yolu). Proje başka bir yere taşınırsa ek ayar gerekmez; gerekirse `MARMARAY_HQ` ile `blender/hq` yolunu verin.
+- **PNG ile çalışmak:** *File ▸ External Data ▸ Unpack Resources ▸ Use files in current directory (create when necessary)* → görüntüler `//textures/*.png` dosyalarını kullanır. İş bitince isterseniz *Pack Resources* ile tekrar paketleyin. `atlas.rebake()` PNG'yi diske yazar ve paketli kopyayı da günceller.
+- Gerekli sürüm: **Blender 5.2** (Geometry Nodes modifier girişleri `md.properties.inputs` API'siyle ayarlanır; daha eski sürümlerde `common.set_gn_input` geri dönüş yolunu kullanır).
